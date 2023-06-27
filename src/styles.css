@@ -2,7 +2,7 @@
 
 :root {
   --accent-color: #3c3718;
-  --secondary-color: #E6F7D1;
+  --secondary-color: #e6f7d1;
   --main-color: #84d337;
 }
 
@@ -13,6 +13,7 @@
 
 body {
   background-color: var(--secondary-color);
+  margin: 0;
 }
 
 .container {
