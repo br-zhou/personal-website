@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+
+:root {
+  --accent-color: #3c3718;
+  --secondary-color: #E6F7D1;
+  --main-color: #84d337;
+}
+
+* {
+  font-family: "Julius Sans One";
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+}
