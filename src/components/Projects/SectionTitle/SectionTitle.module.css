@@ -1,0 +1,27 @@
+.container {
+  height: 7rem;
+  position: relative;
+  padding: 3rem;
+}
+
+.main-text {
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-text {
+  color: lightgray;
+  font-size: 7rem;
+  opacity: 0.4;
+  user-select: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container * {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
