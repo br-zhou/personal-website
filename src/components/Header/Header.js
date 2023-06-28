@@ -10,7 +10,7 @@ const Header = () => {
           alt="website logo"
           className={classes["navbar-icon"]}
           draggable={false}
-          width={32}
+          width={24}
         />
         <h2 className={classes["navbar-title"]}>Brian Zhou</h2>
       </div>

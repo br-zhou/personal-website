@@ -1,5 +1,5 @@
-import SkillsBar from "./SkillsBar"
-import classes from "./Skills.module.css"
+import SkillsBar from "./SkillsBar/SkillsBar"
+import SkillsList from "./SkillsList/SkillsList";
 
 const Skills = () => {
   return (
@@ -8,6 +8,8 @@ const Skills = () => {
         <h1>Skills</h1>
         <hr/>
         <SkillsBar />
+        <hr/>
+        <SkillsList />
       </div>
     </section>
   );

@@ -1,0 +1,25 @@
+.item {
+  background-color: gray;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.img {
+  background-color: black;
+  width: 4rem;
+  height: 4rem;
+}
+
+
+.text h3 {
+  margin: 0;
+  margin-left: 1rem;
+}
+
+.text p {
+  margin: 0;
+  margin-left: 1rem;
+  font-size: .8rem;
+}

@@ -9,7 +9,8 @@ const SkillsBar = () => {
   const createTab = (title) => {
     return (
       <li
-        className={selectTab === title && classes.active}
+        key={title}
+        className={`${selectTab === title && classes.active}`}
         onClick={() => {
           setSelectedTab(title);
         }}
