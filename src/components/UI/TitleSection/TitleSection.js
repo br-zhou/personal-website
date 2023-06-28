@@ -1,10 +1,10 @@
-import classes from "./SectionTitle.module.css"
+import classes from "./TitleSection.module.css"
 
 const SectionTitle = (props) => {
   return (
     <div className={classes.container}>
-      <p className={classes["bg-text"]}>Portfolio</p>
-      <h2 className={classes["main-text"]}>My Work</h2>
+      <p className={classes["bg-text"]}>{props.bgText}</p>
+      <h2 className={classes["main-text"]}>{props.title}</h2>
     </div>
   );
 };

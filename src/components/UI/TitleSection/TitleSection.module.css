@@ -2,6 +2,7 @@
   height: 7rem;
   position: relative;
   padding: 3rem;
+  overflow: hidden;
 }
 
 .main-text {

@@ -1,3 +1,5 @@
+import Button from "../UI/Button/Button";
+
 const About = () => {
   return (
     <section className={`bg-white section`}>
@@ -14,6 +16,7 @@ const About = () => {
           sapien. In eu orci quis ex maximus placerat. Aenean ultricies felis id
           luctus vulputate.
         </p>
+        <Button text="Download CV" onClick={() => console.log("HI")}/>
       </div>
     </section>
   );

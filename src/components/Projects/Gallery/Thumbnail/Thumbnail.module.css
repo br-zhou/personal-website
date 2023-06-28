@@ -1,0 +1,10 @@
+.thumbnail {
+  background-color: lightblue;
+  width: 80%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.thumbnail > img {
+  width: 100%;
+}

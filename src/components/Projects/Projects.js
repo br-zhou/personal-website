@@ -1,12 +1,15 @@
-import SectionTitle from "./SectionTitle/SectionTitle";
+import Button from "../UI/Button/Button";
+import Gallery from "./Gallery/Gallery";
+import SectionTitle from "../UI/TitleSection/TitleSection";
 
 const Projects = () => {
   return (
     <section className={`bg-white`}>
       <div className={`section-content`}>
-        <SectionTitle/>
+        <SectionTitle title="Project" bgText="Featured"/>
         <hr/>
-        <hr/>
+        <Gallery/>
+        <Button text="See More!" onClick={() => alert("HI")}/>
       </div>
     </section>
   );
