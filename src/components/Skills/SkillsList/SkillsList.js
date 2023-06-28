@@ -7,6 +7,9 @@ const SkillsList = (props) => {
       <SkillItem />
       <SkillItem />
       <SkillItem />
+      <SkillItem />
+      <SkillItem />
+      <SkillItem />
     </div>
   );
 };

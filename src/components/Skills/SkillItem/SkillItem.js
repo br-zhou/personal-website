@@ -6,7 +6,7 @@ const SkillItem = (props) => {
       <div className={classes.img}></div>
       <div className={classes.text}>
         <h3>Title</h3>
-        <p>Description.</p>
+        <p>Description</p>
       </div>
     </div>
   );

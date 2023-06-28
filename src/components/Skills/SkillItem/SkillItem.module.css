@@ -1,25 +1,22 @@
 .item {
   background-color: gray;
-  text-align: left;
-  margin: 10px;
+  align-items: center;
   padding: 10px;
   color: white;
 }
 
 .img {
   background-color: black;
-  width: 4rem;
-  height: 4rem;
+  width: 7rem;
+  height: 7rem;
+  margin: 0 auto;
 }
-
 
 .text h3 {
   margin: 0;
-  margin-left: 1rem;
 }
 
 .text p {
   margin: 0;
-  margin-left: 1rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
