@@ -24,3 +24,24 @@ body {
 .title {
   text-align: center;
 }
+
+.bg-grey {
+  background-color: rgb(248, 249, 250);
+}
+
+.bg-white {
+  background-color: white;
+}
+.section-content {
+  text-align: center;
+  max-width: 65rem;
+  width: 85%;
+  margin: auto;
+  position: relative;
+  padding: 1rem;
+}
+
+section {
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+}

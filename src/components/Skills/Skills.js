@@ -1,8 +1,8 @@
-const About = () => {
+const Skills = () => {
   return (
-    <section className={`bg-white section`}>
-      <div className="section-content">
-        <h2>About Me</h2>
+    <section className={`bg-grey`}>
+      <div className={`section-content`}>
+        <h1>Skills</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
           facilisis diam. In ut aliquam odio. Nam rhoncus quis arcu vitae
@@ -19,4 +19,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Skills;
