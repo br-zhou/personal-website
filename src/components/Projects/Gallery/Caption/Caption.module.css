@@ -1,0 +1,10 @@
+.container {
+  align-items: center;
+  text-align: center;
+}
+
+.description {
+  margin: auto;
+  max-width: 80%;
+  margin-bottom: 1rem;
+}

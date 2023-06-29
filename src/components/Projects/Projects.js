@@ -9,7 +9,7 @@ const Projects = () => {
         <SectionTitle title="Project" bgText="Featured"/>
         <hr/>
         <Gallery/>
-        <Button text="See More!" onClick={() => alert("HI")}/>
+        <Button text="See More Projects!" onClick={null}/>
       </div>
     </section>
   );

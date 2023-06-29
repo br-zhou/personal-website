@@ -1,10 +1,13 @@
-.thumbnail {
-  background-color: lightblue;
-  width: 80%;
-  object-fit: cover;
+.thumbnail-container {
+  object-fit: contain;
   overflow: hidden;
+  box-sizing: border-box;
+  background-color: rgb(205,80,90);;
+  padding: 10px;
 }
 
-.thumbnail > img {
+.thumbnail-container > img {
   width: 100%;
+  max-width: 500px;
+  display: block;
 }
