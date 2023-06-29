@@ -1,3 +1,4 @@
+import TitleSection from "../UI/TitleSection/TitleSection";
 import SkillsBar from "./SkillsBar/SkillsBar"
 import SkillsList from "./SkillsList/SkillsList";
 
@@ -5,7 +6,7 @@ const Skills = () => {
   return (
     <section className={`bg-grey`}>
       <div className={`section-content`}>
-        <h1>Skills</h1>
+        <TitleSection title="SKILLS" bgText="RELEVANT"/>
         <hr/>
         <SkillsBar />
         <hr/>

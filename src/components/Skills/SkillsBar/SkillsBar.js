@@ -21,9 +21,7 @@ const SkillsBar = () => {
   };
 
   return (
-    <ul className={classes.navbar}>
-      {TABS.map(tab => createTab(tab))}
-    </ul>
+    <ul className={classes.navbar}>{TABS.map((tab) => createTab(tab))}</ul>
   );
 };
 
