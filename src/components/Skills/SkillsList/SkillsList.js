@@ -4,7 +4,7 @@ import SplitHalf from "../../UI/SplitHalf/SplitHalf";
 const SkillsList = (props) => {
   return (
     <SplitHalf>
-      <SkillItem title="Javascript" skillLevel="Intermediate" />
+      <SkillItem title="Javascript" skillLevel="Intermediate" percent="78%" />
       <SkillItem title="C++" skillLevel="Advanced" />
       <SkillItem title="3" />
       <SkillItem title="4" />

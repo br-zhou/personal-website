@@ -45,3 +45,7 @@ section {
   padding-top: 2.5rem;
   padding-bottom: 2rem;
 }
+
+::selection {
+  background: rgba(205, 80, 90, 0.5);
+}

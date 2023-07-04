@@ -10,7 +10,7 @@ const SkillItem = (props) => {
             <span className={classes["right-float"]}>{props.skillLevel}</span>
           </h3>
           <div className={classes.bar}>
-            <div className={classes["progress-bar"]}></div>
+            <div className={classes["progress-bar"]} style={{width: props.percent}}></div>
           </div>
         </div>
       </div>

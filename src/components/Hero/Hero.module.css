@@ -16,4 +16,5 @@
 
 .picture {
   border-radius: 50%;
+  border: solid .5rem white;
 }
