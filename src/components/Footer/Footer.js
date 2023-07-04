@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className={classes.footer}>
       <p>Made with ❤️ by Brian</p>
       <p>©️ 2023</p>
-      <Button text="BACK TO THE TOP"/>
+      <Button text="BACK TO THE TOP" type="secondary"/>
     </footer>
   );
 };

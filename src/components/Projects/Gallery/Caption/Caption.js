@@ -11,7 +11,7 @@ const Caption = () => {
         Duis ullamcorper tempus suscipit. Etiam arcu mi, scelerisque nec augue
         sed, feugiat aliquet lectus. Nulla fringilla, sapien ac semper.
       </p>
-      <Button text={"More Info"}/>
+      <Button text={"More Info"} type="secondary"/>
     </div>
   );
 };
