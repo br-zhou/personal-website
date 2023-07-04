@@ -1,14 +1,19 @@
 .background {
   background-color: gray;
-  height: 20rem;
+  padding: 5rem;
   position: relative;
 }
 
 .content {
   text-align: center;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
   color: white;
+}
+
+.content > h1 {
+  font-size: 3rem;
+}
+
+.picture {
+  border-radius: 50%;
 }
