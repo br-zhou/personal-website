@@ -2,12 +2,25 @@
   object-fit: contain;
   overflow: hidden;
   box-sizing: border-box;
-  background-color: rgb(205,80,90);;
+  background-color: #333;
   padding: 10px;
+  position: relative;
 }
 
 .thumbnail-container > img {
   width: 100%;
   max-width: 500px;
   display: block;
+}
+
+.badge {
+  background-color: rgb(104, 228, 104);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
+  padding: .25rem;
+  border-radius: .5rem;
 }
