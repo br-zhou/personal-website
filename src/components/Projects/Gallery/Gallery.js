@@ -1,17 +1,18 @@
 import Thumbnail from "./Thumbnail/Thumbnail";
-import classes from "./Gallery.module.css";
 import Caption from "./Caption/Caption";
+import SplitHalf from "../../UI/SplitHalf/SplitHalf";
+import classes from "./Gallery.module.css"
 
 const Gallery = () => {
   return (
-    <div className={classes.container}>
-      <div>
+    <SplitHalf>
+      <div className={classes['img-container']}>
         <Thumbnail/>
       </div>
       <div>
         <Caption />
       </div>
-    </div>
+    </SplitHalf>
   );
 };
 
