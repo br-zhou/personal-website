@@ -1,10 +1,9 @@
 .thumbnail-container {
   object-fit: contain;
   overflow: hidden;
-  box-sizing: border-box;
   background-color: #333;
-  padding: 10px;
   position: relative;
+  border: #333 solid 10px;
 }
 
 .thumbnail-container:hover {
@@ -21,28 +20,22 @@
 .thumbnail-container:hover > img {
   filter: blur(8px);
   -webkit-filter: blur(8px);
-  overflow: hidden;
 }
 
 .thumbnail-container:hover > .overlay {
   opacity: 1;
 }
 
-.thumbnail-container:hover > .badge {
-  opacity: 0;
-}
-
-
 .badge {
   background-color: rgb(104, 228, 104);
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   position: absolute;
   bottom: 0;
   right: 0;
-  margin: 1rem;
-  padding: .25rem;
-  border-radius: .5rem;
+  margin: .5rem;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
   transition: all 0.1s linear 0s;
   opacity: 1;
 }
@@ -52,8 +45,11 @@
   width: 100%;
   top: 50%;
   transform: translate(0, -50%);
+  left: 0;
   color: white;
   opacity: 0;
   pointer-events: none;
   transition: all 0.25s linear 0s;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
 }
