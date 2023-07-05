@@ -5,6 +5,8 @@ const Hero = () => {
     <div className={classes.background}>
       <div className={classes['bg-content']}>
         <div className={classes.sun}></div>
+        <div id={classes['left-hill']} className={classes.hill}></div>
+        <div id={classes['right-hill']} className={classes.hill}></div>
       </div>
       
       <div className={classes['main-content']}>

@@ -1,6 +1,7 @@
 .background {
-  background-color: gray;
+  background-color: rgb(33, 33, 49);
   position: relative;
+  overflow: hidden;
 }
 
 .main-content {
@@ -8,6 +9,7 @@
   position: relative;
   color: white;
   padding: 4rem;
+  visibility: hidden;
 }
 
 .picture {
@@ -75,4 +77,28 @@
       0 0 0 60px rgba(255, 222, 0, 0),
       0 0 40px 60px rgba(255, 222, 0, 0.25);
   }
+}
+
+.hill {
+  position: absolute;
+  box-shadow: 0 0 10px 5px rgba(0, 100, 0, 0.5);
+}
+
+#left-hill {
+  background-color: rgb(57, 178, 57);
+  bottom: -250px;
+  left: -1000px;
+  width: 2000px;
+  height: 500px;
+  border-top-right-radius: 100%;
+}
+
+#right-hill {
+  background-color: rgb(76, 190, 47);
+  border-top-left-radius: 100%;
+  bottom: -300px;
+  right: -1000px;
+  width: 2000px;
+  height: 450px;
+  z-index: -1;
 }
