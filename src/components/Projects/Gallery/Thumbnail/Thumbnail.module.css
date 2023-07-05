@@ -7,6 +7,10 @@
   position: relative;
 }
 
+.thumbnail-container:hover {
+  cursor: pointer;
+}
+
 .thumbnail-container > img {
   width: 100%;
   max-width: 500px;

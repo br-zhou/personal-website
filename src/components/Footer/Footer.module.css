@@ -1,10 +1,30 @@
 .footer {
-  background-color: rgb(17, 40, 85);
-  color: white;
-  padding: .5rem;
+  background-color: #24262b;
+  color: #ffffff;
+  padding-bottom: .5rem;
+  padding-top: 1rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-.footer > p {
+.footer p {
   font-size: .75rem;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.icons-container > a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.1s linear 0s;
+}
+
+.icons-container > a:hover {
+  transform: scale(1.25);
 }
