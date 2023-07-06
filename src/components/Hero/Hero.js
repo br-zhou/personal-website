@@ -1,17 +1,25 @@
 import classes from "./Hero.module.css";
-import dinoImg from "../../assets/Dino.png"
+import dinoImg from "../../assets/Dino.png";
 
 const Hero = () => {
   return (
     <div className={classes.background}>
-      <div className={classes['bg-content']}>
+      <div className={classes["bg-content"]}>
         <div className={classes.sun}></div>
-        <div id={classes['left-hill']} className={classes.hill}></div>
-        <div id={classes['right-hill']} className={classes.hill}></div>
-        <img src={dinoImg} draggable="false" id={classes.dino} alt="red dino"></img>
+        <div id={classes["left-hill"]} className={classes.hill}></div>
+        <div id={classes["right-hill"]} className={classes.hill}></div>
+        <div id={classes.dino}>
+          <img
+            src={dinoImg}
+            draggable="false"
+            id={classes['dino-img']}
+            alt="red dino"
+          />
+          <div id={classes['dino-shadow']}></div>
+        </div>
       </div>
-      
-      <div className={classes['main-content']}>
+
+      <div className={classes["main-content"]}>
         <img
           src="https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg"
           alt="profile"

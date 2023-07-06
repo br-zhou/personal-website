@@ -82,6 +82,7 @@
   width: 2000px;
   height: 500px;
   border-top-right-radius: 100%;
+  z-index: -9;
 }
 
 #right-hill {
@@ -91,12 +92,27 @@
   right: -1000px;
   width: 2000px;
   height: 450px;
-  z-index: -1;
+  z-index: -10;
 }
 
 #dino {
-  width: 128px;
   position: absolute;
   bottom: 50px;
-  left: 200px;
+  left: 20%;
+}
+
+#dino-img {
+  width: 200px;
+}
+
+#dino-shadow {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 100px;
+  height: 25px;
+  bottom: 15px;
+  right: 40px;
+  z-index: -1;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.5);
 }
