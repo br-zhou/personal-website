@@ -1,11 +1,14 @@
 import classes from "./Hero.module.css";
-import dinoImg from "../../assets/dino-x64.png";
+import dinoImg from "../../assets/dino-x64-animated.gif";
 
 const Hero = () => {
   return (
     <div className={classes.background}>
       <div className={classes["bg-content"]}>
         <div className={classes.sun}></div>
+        <div className={classes.clouds}>
+          <div class={classes.cloud}></div>
+        </div>
         <div id={classes["left-hill"]} className={classes.hill}></div>
         <div id={classes["right-hill"]} className={classes.hill}></div>
         <div id={classes.dino}>
@@ -27,7 +30,7 @@ const Hero = () => {
           draggable="false"
         />
         <h1 className={classes.title}>Brian Zhou</h1>
-        <p>Student, Developer, and Food Lover</p>
+        <p className={classes.description}>Student, Developer, and Food Lover</p>
       </div>
     </div>
   );
