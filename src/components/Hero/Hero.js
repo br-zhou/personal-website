@@ -1,5 +1,5 @@
 import classes from "./Hero.module.css";
-import dinoImg from "../../assets/Dino.png";
+import dinoImg from "../../assets/dino-x64.png";
 
 const Hero = () => {
   return (
@@ -12,10 +12,10 @@ const Hero = () => {
           <img
             src={dinoImg}
             draggable="false"
-            id={classes['dino-img']}
+            id={classes["dino-img"]}
             alt="red dino"
           />
-          <div id={classes['dino-shadow']}></div>
+          <div id={classes["dino-shadow"]}></div>
         </div>
       </div>
 
