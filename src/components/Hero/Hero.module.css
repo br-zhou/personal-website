@@ -74,6 +74,8 @@
   }
 }
 
+/* Credit: Sun inspired by https://codepen.io/hirokbanik/pen/pozYZgP */
+
 .hill {
   position: absolute;
   box-shadow: 0 0 0 10px rgb(57, 178, 57, 0.4);
