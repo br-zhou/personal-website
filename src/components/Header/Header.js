@@ -25,7 +25,7 @@ const Header = () => {
       </div>
 
       <div>
-        <div class={classes["burger-btn"]} onClick={toggleMenu}>
+        <div className={classes["burger-btn"]} onClick={toggleMenu}>
           <BurgerSvg size="24" />
         </div>
       </div>

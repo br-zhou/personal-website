@@ -7,7 +7,7 @@ const Hero = () => {
       <div className={classes["bg-content"]}>
         <div className={classes.sun}></div>
         <div className={classes.clouds}>
-          <div class={classes.cloud}></div>
+          <div className={classes.cloud}></div>
         </div>
         <div id={classes["left-hill"]} className={classes.hill}></div>
         <div id={classes["right-hill"]} className={classes.hill}></div>
