@@ -5,11 +5,15 @@ import classes from "./Header.module.css";
 import XSvg from "./XSvg";
 
 const Header = () => {
-  const [menuToggle, setMenuToggle] = useState(false);
+  const [isSidebarActive, setSidebarActive] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuToggle((lastState) => !lastState);
+  const toggleSidebar = () => {
+    setSidebarActive((lastState) => !lastState);
   };
+
+  const closeSidebar = () => {
+    setSidebarActive(false);
+  }
 
   return (
     <header className={classes.header}>
@@ -25,18 +29,20 @@ const Header = () => {
       </div>
 
       <div>
-        <div className={classes["burger-btn"]} onClick={toggleMenu}>
+        <div className={classes["burger-btn"]} onClick={toggleSidebar}>
           <BurgerSvg size="24" />
         </div>
       </div>
+      
+      <div className={`${classes.backdrop} ${isSidebarActive && classes['backdrop-enabled']}`} onClick={closeSidebar}></div>
 
       <nav
         className={`${classes["nav-links"]} ${
-          menuToggle && classes["show-side-bar"]
+          isSidebarActive && classes["show-side-bar"]
         }`}
       >
         <ul>
-          <li id={classes["burger-x-btn"]} onClick={toggleMenu}>
+          <li id={classes["burger-x-btn"]} onClick={toggleSidebar}>
             <XSvg size="48" />
           </li>
           <li>
