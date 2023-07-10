@@ -13,50 +13,55 @@ const Header = () => {
 
   const closeSidebar = () => {
     setSidebarActive(false);
-  }
+  };
+
+  const sidebarBackdrop = () => {
+    return <div className={classes.backdrop} onClick={closeSidebar}></div>;
+  };
 
   return (
-    <header className={classes.header}>
-      <div className={classes["home-button"]}>
-        <img
-          src={logo}
-          alt="website logo"
-          className={classes["navbar-icon"]}
-          draggable={false}
-          width={24}
-        />
-        <h2 className={classes["navbar-title"]}>Brian Zhou</h2>
-      </div>
-
-      <div>
-        <div className={classes["burger-btn"]} onClick={toggleSidebar}>
-          <BurgerSvg size="24" />
+    <>
+      {isSidebarActive && sidebarBackdrop()}
+      <header className={classes.header}>
+        <div className={classes["home-button"]}>
+          <img
+            src={logo}
+            alt="website logo"
+            className={classes["navbar-icon"]}
+            draggable={false}
+            width={24}
+          />
+          <h2 className={classes["navbar-title"]}>Brian Zhou</h2>
         </div>
-      </div>
-      
-      <div className={`${classes.backdrop} ${isSidebarActive && classes['backdrop-enabled']}`} onClick={closeSidebar}></div>
 
-      <nav
-        className={`${classes["nav-links"]} ${
-          isSidebarActive && classes["show-side-bar"]
-        }`}
-      >
-        <ul>
-          <li id={classes["burger-x-btn"]} onClick={toggleSidebar}>
-            <XSvg size="48" />
-          </li>
-          <li>
-            <a href="/">Projects</a>
-          </li>
-          <li>
-            <a href="/">Socials</a>
-          </li>
-          <li>
-            <a href="/">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+        <div>
+          <div className={classes["burger-btn"]} onClick={toggleSidebar}>
+            <BurgerSvg size="24" />
+          </div>
+        </div>
+
+        <nav
+          className={`${classes["nav-links"]} ${
+            isSidebarActive && classes["show-side-bar"]
+          }`}
+        >
+          <ul>
+            <li id={classes["burger-x-btn"]} onClick={toggleSidebar}>
+              <XSvg size="48" />
+            </li>
+            <li>
+              <a href="/">Projects</a>
+            </li>
+            <li>
+              <a href="/">Socials</a>
+            </li>
+            <li>
+              <a href="/">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </>
   );
 };
 
