@@ -3,6 +3,7 @@ import logo from "../../assets/logox64.png";
 import BurgerSvg from "./BurgerSvg";
 import classes from "./Header.module.css";
 import XSvg from "./XSvg";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [isSidebarActive, setSidebarActive] = useState(false);
@@ -50,13 +51,10 @@ const Header = () => {
               <XSvg size="48" />
             </li>
             <li>
-              <a href="/">Projects</a>
+              <NavLink>Home</NavLink>
             </li>
             <li>
-              <a href="/">Socials</a>
-            </li>
-            <li>
-              <a href="/">Contact</a>
+              <NavLink>Projects</NavLink>
             </li>
           </ul>
         </nav>

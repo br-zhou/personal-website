@@ -1,23 +1,23 @@
-import About from "./components/About/About";
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import Skills from "./components/Skills/Skills";
-import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer/Footer";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import RootLayout from "./pages/RootLayout";
+import ErrorPage from "./pages/ErrorPage";
+import ProjectsPage from "./pages/ProjectsPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      { path: "/", element: <HomePage /> },
+      { path: "/projects", element: <ProjectsPage /> },
+    ],
+    errorElement: <ErrorPage />,
+  },
+]);
 
 function App() {
-  return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-      </main>
-      <Footer />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
