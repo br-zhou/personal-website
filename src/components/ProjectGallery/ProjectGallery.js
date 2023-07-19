@@ -1,20 +1,30 @@
-import SplitHalf from "../UI/SplitHalf/SplitHalf";
+import TitleSection from "../UI/TitleSection/TitleSection";
 import ProjectCard from "./ProjectCard/ProjectCard";
+import classes from "./ProjectGallery.module.css";
 
-const PROJECTS = ["Project 1", "Project 2", "Project 3"];
+const FEATURED_PROJECTS = ["Project 1", "Project 2", "Project 3"];
 
 const ProjectGallery = () => {
   return (
     <section className={`bg-grey`}>
+      <TitleSection title="Projects" bgText="Featured" />
       <div className={`section-content`}>
-        <h1>Featured Projects</h1>
-        <SplitHalf>
-          <ProjectCard link="/projects/p1" title="Example Project With Long Name" desc="blah blach blach blach blach"/>
-          <ProjectCard link="/projects/p1" title="Example Project With Long Name ple Project With Long Name ple Project With Long Name" desc="blah blach blach blach blach blah blach blach blach blach blah blach blach blach blach"/>
+        <div className={classes['flexbox-container']}>
+          <ProjectCard
+            link="/projects/p1"
+            title="Example Project With Long Name"
+            desc="blah blach blach blach blach"
+            img=""
+          />
+          <ProjectCard
+            link="/projects/p1"
+            title="Example Project With Long Name ple Project With Long Name ple Project With Long Name"
+            desc="blah blach blach blach blach blah blach blach blach blach blah blach blach blach blach"
+          />
           <ProjectCard />
           <ProjectCard />
           <ProjectCard />
-        </SplitHalf>
+        </div>
       </div>
     </section>
   );

@@ -1,10 +1,10 @@
 .container {
   padding: 1rem;
-  min-width: 240px;
-  margin: auto;
+  width: 19rem;
 }
 
 .card {
+  box-sizing: border-box;
   background-color: white;
   margin: 1rem auto;
   padding: 1rem;
@@ -13,7 +13,7 @@
   text-align: left;
   box-shadow: 15px 15px 35px rgba(30, 30, 30, 0.4);
   transition: transform 0.175s linear;
-  min-height: 10rem;
+  height: 100%;
 }
 
 .card:hover {
@@ -28,11 +28,6 @@
 .link {
   text-decoration: none;
   color: black;
-}
-
-.img-container {
-  width: 100%;
-  overflow: hidden;
 }
 
 .img-container > img {
