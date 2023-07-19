@@ -6,7 +6,6 @@
 .card {
   box-sizing: border-box;
   background-color: white;
-  margin: 1rem auto;
   padding: 1rem;
   border: 3px solid black;
   border-radius: 1.5rem;
@@ -23,7 +22,18 @@
 
 .card > * {
   margin: 0;
+  padding: 0;
 }
+
+.card > h1 {
+  line-height: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.card > p {
+  line-height: 1.4rem;
+}
+
 
 .link {
   text-decoration: none;
@@ -35,4 +45,6 @@
   aspect-ratio: 16 / 9;
   object-fit: cover;
   border-radius: 16px;
+  pointer-events: none;
 }
+

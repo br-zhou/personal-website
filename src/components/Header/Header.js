@@ -21,7 +21,7 @@ const Header = () => {
   };
 
   const isActivePage = ({isActive}) => {
-    return isActive && classes["active-page"];
+    return isActive ? classes["active-page"] : "";
   };
 
   return (

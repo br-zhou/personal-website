@@ -2,14 +2,19 @@ import { Link } from "react-router-dom";
 import classes from "./ProjectCard.module.css";
 
 const ProjectCard = (props) => {
+  const generateImage = (src) => {
+    return (
+      <div className={classes["img-container"]}>
+        <img src={props.img} />
+      </div>
+    );
+  };
+
   return (
     <div className={classes.container}>
-      <Link to={props.link} className={classes.link}>
+      <Link to={`/projects/${props.id}`} className={classes.link}>
         <div className={classes.card}>
-          <div className={classes['img-container']}>
-            <img src={props.img || "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg"} />
-          </div>
-
+          {props.img && generateImage()}
           <h1>{props.title}</h1>
           <p>{props.desc}</p>
         </div>
