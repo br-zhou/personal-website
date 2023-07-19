@@ -1,0 +1,43 @@
+.container {
+  padding: 1rem;
+  min-width: 240px;
+  margin: auto;
+}
+
+.card {
+  background-color: white;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 3px solid black;
+  border-radius: 1.5rem;
+  text-align: left;
+  box-shadow: 15px 15px 35px rgba(30, 30, 30, 0.4);
+  transition: transform 0.175s linear;
+  min-height: 10rem;
+}
+
+.card:hover {
+  transform: scale(1.025);
+  cursor: pointer;
+}
+
+.card > * {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.img-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.img-container > img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 16px;
+}
