@@ -50,7 +50,7 @@ ul {
   margin: 0;
 }
 
-.nav-links li a:hover {
+.nav-links li a:hover, .active-page {
   background-color: black;
 }
 

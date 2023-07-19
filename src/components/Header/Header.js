@@ -20,6 +20,10 @@ const Header = () => {
     return <div className={classes.backdrop} onClick={closeSidebar}></div>;
   };
 
+  const isActivePage = ({isActive}) => {
+    return isActive && classes["active-page"];
+  };
+
   return (
     <>
       {isSidebarActive && sidebarBackdrop()}
@@ -51,10 +55,14 @@ const Header = () => {
               <XSvg size="48" />
             </li>
             <li>
-              <NavLink>Home</NavLink>
+              <NavLink to="/" className={isActivePage} end="true">
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink>Projects</NavLink>
+              <NavLink to="/projects" className={isActivePage}>
+                Projects
+              </NavLink>
             </li>
           </ul>
         </nav>
