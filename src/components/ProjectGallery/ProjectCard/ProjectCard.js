@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
 
   return (
     <div className={classes.container}>
-      <Link to={`/projects/${props.id}`} className={classes.link}>
+      <Link to={`${props.id}`} className={classes.link}>
         <div className={classes.card}>
           {props.img && generateImage()}
           <h1>{props.title}</h1>

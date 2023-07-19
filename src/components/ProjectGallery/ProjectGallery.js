@@ -54,7 +54,7 @@ const OTHER_PROJECTS = [
   },
   {
     id: "flash-game",
-    title: "Space Fighters",
+    title: "Space Fighter",
     desc: "blah blach blach blach blach blah blach blach blach blach",
   },
   {
