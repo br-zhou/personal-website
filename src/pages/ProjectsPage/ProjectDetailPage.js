@@ -1,5 +1,5 @@
-import Projects from "../../components/Projects/Projects";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import Button from "../../components/UI/Button/Button";
 
 const ProjectDetailPage = () => {
   const params = useParams();
@@ -10,7 +10,9 @@ const ProjectDetailPage = () => {
     <>
       <h1>Project Page!</h1>
       <h1>id: {id}</h1>
-      <Projects />
+      <Link to=".." relative="path">
+          <Button text="See More Projects!" onClick={null} />
+        </Link>
     </>
   );
 };

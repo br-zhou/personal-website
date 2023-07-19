@@ -7,13 +7,13 @@ const FEATURED_PROJECTS = [
     id: "personal-site",
     title: "Personal Website",
     desc: "blah blach blach blach blach blah blach blach blach blach",
-    img: "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg",
+    img: "https://cdn.discordapp.com/attachments/1123397647785533561/1131336875857170463/image.png",
   },
   {
-    id: "dino-game",
+    id: "dino-party",
     title: "Multiplayer Game",
     desc: "blah blach blach blach blach blah blach blach blach blach",
-    img: "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg",
+    img: "https://cdn.discordapp.com/attachments/1123397647785533561/1131341171982086154/image.png",
   },
   {
     id: "food-app",
@@ -25,19 +25,19 @@ const FEATURED_PROJECTS = [
     id: "candy-exterminator",
     title: "Candy Exterminator",
     desc: "blah blach blach blach blach blah blach blach blach blach",
-    img: "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg",
+    img: "https://cdn.discordapp.com/attachments/1123397647785533561/1131338549967474790/image.png",
   },
   {
     id: "app-blocker",
     title: "App Blocker",
     desc: "blah blach blach blach blach blah blach blach blach blach",
-    img: "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg",
+    img: "https://cdn.discordapp.com/attachments/1123397647785533561/1131340096621264906/image.png",
   },
   {
     id: "fh-clubs",
     title: "School Website",
     desc: "blah blach blach blach blach blah blach blach blach blach",
-    img: "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg",
+    img: "https://cdn.discordapp.com/attachments/1123397647785533561/1131339690801381448/export.png",
   },
 ];
 
