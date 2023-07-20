@@ -4,10 +4,10 @@ import classes from "./ProjectGallery.module.css";
 
 const FEATURED_PROJECTS = [
   {
-    id: "personal-site",
-    title: "Personal Website",
+    id: "ubc-avionics",
+    title: "UBC Rocket Avionics",
     desc: "blah blach blach blach blach blah blach blach blach blach",
-    img: "https://cdn.discordapp.com/attachments/1123397647785533561/1131336875857170463/image.png",
+    img: "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg",
   },
   {
     id: "dino-party",
@@ -16,8 +16,8 @@ const FEATURED_PROJECTS = [
     img: "https://cdn.discordapp.com/attachments/1123397647785533561/1131341171982086154/image.png",
   },
   {
-    id: "food-app",
-    title: "Food Order App",
+    id: "csdc",
+    title: "Canadian Satellite Design Challenge",
     desc: "blah blach blach blach blach blah blach blach blach blach",
     img: "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg",
   },
@@ -29,7 +29,7 @@ const FEATURED_PROJECTS = [
   },
   {
     id: "app-blocker",
-    title: "App Blocker",
+    title: "Python App Blocker",
     desc: "blah blach blach blach blach blah blach blach blach blach",
     img: "https://cdn.discordapp.com/attachments/1123397647785533561/1131340096621264906/image.png",
   },
@@ -38,6 +38,12 @@ const FEATURED_PROJECTS = [
     title: "School Website",
     desc: "blah blach blach blach blach blah blach blach blach blach",
     img: "https://cdn.discordapp.com/attachments/1123397647785533561/1131339690801381448/export.png",
+  },
+  {
+    id: "personal-site",
+    title: "Personal Website",
+    desc: "blah blach blach blach blach blah blach blach blach blach",
+    img: "https://cdn.discordapp.com/attachments/1123397647785533561/1131336875857170463/image.png",
   },
 ];
 
@@ -60,6 +66,16 @@ const OTHER_PROJECTS = [
   {
     id: "unity-game",
     title: "3D Platformer",
+    desc: "blah blach blach blach blach blah blach blach blach blach",
+  },
+  {
+    id: "food-app",
+    title: "Food Order App",
+    desc: "blah blach blach blach blach blah blach blach blach blach",
+  },
+  {
+    id: "site-tracker",
+    title: "Site Usage Tracker",
     desc: "blah blach blach blach blach blah blach blach blach blach",
   },
 ]
