@@ -3,18 +3,6 @@
   width: 19rem;
 }
 
-.card {
-  box-sizing: border-box;
-  background-color: white;
-  padding: 1rem;
-  border: 3px solid black;
-  border-radius: 1.5rem;
-  text-align: left;
-  box-shadow: 15px 15px 35px rgba(30, 30, 30, 0.4);
-  transition: transform 0.175s linear;
-  height: 100%;
-}
-
 .card:hover {
   transform: scale(1.025);
   cursor: pointer;

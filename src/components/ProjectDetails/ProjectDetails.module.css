@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.carousel-container {
+  width: 40rem;
+}
+
+.info-container {
+  width: 25rem;
+  box-sizing: border-box;
+  padding-left: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.card > * {
+  margin: 0;
+  padding: 0;
+}
