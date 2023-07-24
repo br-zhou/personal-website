@@ -6,7 +6,7 @@ const ProjectDetailPage = () => {
   const params = useParams();
 
   const id = params.projectId;
-
+  
   return (
     <section className={`bg-white section`}>
       <div className="section-content">

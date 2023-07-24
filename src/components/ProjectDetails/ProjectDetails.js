@@ -1,3 +1,4 @@
+import { PROJECT_DETAILS } from "../../assets/projectData";
 import Carousel from "../Carousel/Carousel";
 import Card from "../UI/Card/Card";
 import classes from "./ProjectDetails.module.css";
@@ -5,13 +6,15 @@ import classes from "./ProjectDetails.module.css";
 const ProjectDetails = (props) => {
   const projectId = props.id;
 
+  const projectData = PROJECT_DETAILS[projectId];
+
   return (
     <>
-      <h1 className={classes.title}>{projectId}</h1>
+      <h1 className={classes.title}>{projectData.title}</h1>
       <div className={classes.container}>
         <div className={classes["carousel-container"]}>
           <Card>
-            <Carousel />
+            <Carousel img={projectData.img}/>
           </Card>
         </div>
 
@@ -19,11 +22,7 @@ const ProjectDetails = (props) => {
           <Card className={classes['info-card']}>
             <h1>Description</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              dolor orci, commodo molestie dolor ut, fringilla pellentesque
-              urna. Etiam eget fermentum turpis. Fusce sagittis velit dui, id
-              pellentesque dolor sagittis quis. Mauris sem mauris, dignissim id
-              sagittis quis, molestie quis ante. Nulla ac malesuada lacus. 
+              {projectData.desc}
             </p>
           </Card>
         </div>

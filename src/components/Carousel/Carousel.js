@@ -2,11 +2,9 @@ import { useState } from "react";
 import classes from "./Carousel.module.css";
 
 const Carousel = (props) => {
-  const IMG_LIST = [
-    "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg",
-    "https://cdn.discordapp.com/attachments/1123397647785533561/1131338549967474790/image.png",
-    "https://cdn.discordapp.com/attachments/1123397647785533561/1131340096621264906/image.png",
-  ];
+  const IMG_LIST = props.img || [""];
+
+  console.log(props.img)
 
   const [activeSlide, setActiveSlide] = useState(0);
 
@@ -40,7 +38,7 @@ const Carousel = (props) => {
       </button>
       <ul>
         <li className={classes.slide}>
-          <img src={IMG_LIST[activeSlide]}></img>
+          <img src={IMG_LIST[activeSlide]} alt=""></img>
         </li>
       </ul>
     </div>
