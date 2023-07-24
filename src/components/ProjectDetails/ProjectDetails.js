@@ -16,14 +16,14 @@ const ProjectDetails = (props) => {
         </div>
 
         <div className={classes["info-container"]}>
-          <Card className={classes.card}>
+          <Card className={classes['info-card']}>
             <h1>Description</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               dolor orci, commodo molestie dolor ut, fringilla pellentesque
               urna. Etiam eget fermentum turpis. Fusce sagittis velit dui, id
               pellentesque dolor sagittis quis. Mauris sem mauris, dignissim id
-              sagittis quis, molestie quis ante. Nulla ac malesuada lacus.
+              sagittis quis, molestie quis ante. Nulla ac malesuada lacus. 
             </p>
           </Card>
         </div>

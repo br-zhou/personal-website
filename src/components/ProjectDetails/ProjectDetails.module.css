@@ -7,7 +7,6 @@
 
 .carousel-container {
   max-width: 40rem;
-  min-width: 20rem;
   flex: 4;
   margin: 0.5rem;
 }
@@ -22,7 +21,24 @@
   font-size: 2rem;
 }
 
-.card > * {
+.info-card {
+  height: 100%;
+}
+
+.info-card > * {
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel-container {
+    max-width: none;
+    width: 100%;
+    flex: none;
+  }
+
+  .info-container {
+    width: 100%;
+    flex: none;
+  }
 }
