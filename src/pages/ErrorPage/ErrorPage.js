@@ -5,9 +5,9 @@ const ErrorPage = () => {
   return (
     <div className={classes.main}>
       <h1>An Error Occurred</h1>
-      <h4>404 Not Found</h4>;
+      <h4>404 Not Found</h4>
       <p>
-        Click <Link to="/">Here</Link> to return to the home page
+        Click <Link to="/">here</Link> to return to the home page
       </p>
     </div>
   );
