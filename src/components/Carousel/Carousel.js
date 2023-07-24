@@ -4,8 +4,6 @@ import classes from "./Carousel.module.css";
 const Carousel = (props) => {
   const IMG_LIST = props.img || [""];
 
-  console.log(props.img)
-
   const [activeSlide, setActiveSlide] = useState(0);
 
   const nextHandler = () => {
@@ -22,23 +20,35 @@ const Carousel = (props) => {
     });
   };
 
+  const getButtons = () => {
+    return (
+      <>
+        <button
+          className={`${classes.btn} ${classes.prev}`}
+          onClick={prevHandler}
+        >
+          &#60;
+        </button>
+        <button
+          className={`${classes.btn} ${classes.next}`}
+          onClick={nextHandler}
+        >
+          &#62;
+        </button>
+      </>
+    );
+  };
+
   return (
     <div className={classes.container}>
-      <button
-        className={`${classes.btn} ${classes.prev}`}
-        onClick={prevHandler}
-      >
-        &#60;
-      </button>
-      <button
-        className={`${classes.btn} ${classes.next}`}
-        onClick={nextHandler}
-      >
-        &#62;
-      </button>
+      {props.img && props.img.length > 1 && getButtons()}
       <ul>
         <li className={classes.slide}>
-          <img src={IMG_LIST[activeSlide]} alt=""></img>
+          {props.img ? (
+            <img src={IMG_LIST[activeSlide]} alt="" />
+          ) : (
+            <h1>No Image Available</h1>
+          )}
         </li>
       </ul>
     </div>

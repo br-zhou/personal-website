@@ -87,6 +87,7 @@ export const PROJECT_DETAILS = {
     desc: "blah blach blach blach blach blah blach blach blach blach",
     img: [
       "https://cdn.discordapp.com/attachments/1123397647785533561/1131341171982086154/image.png",
+      "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg",
     ],
   },
   csdc: {

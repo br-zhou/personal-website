@@ -1,4 +1,4 @@
-import { PROJECT_DETAILS } from "../../assets/projectData";
+import { OTHER_PROJECTS, PROJECT_DETAILS } from "../../assets/projectData";
 import Carousel from "../Carousel/Carousel";
 import Card from "../UI/Card/Card";
 import classes from "./ProjectDetails.module.css";
@@ -6,7 +6,11 @@ import classes from "./ProjectDetails.module.css";
 const ProjectDetails = (props) => {
   const projectId = props.id;
 
-  const projectData = PROJECT_DETAILS[projectId];
+  let projectData = PROJECT_DETAILS[projectId];
+
+  if (!projectData) { // ! temp
+    projectData = OTHER_PROJECTS.find(proj => proj.id === projectId);
+  }
 
   return (
     <>
