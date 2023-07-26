@@ -1,9 +1,10 @@
 import Button from "../UI/Button/Button";
+import classes from './About.module.css';
 
 const About = () => {
   return (
     <section className={`bg-white section`}>
-      <div className="section-content">
+      <div className={`section-content ${classes.about}`}>
         <h2>About Me</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
@@ -16,7 +17,7 @@ const About = () => {
           sapien. In eu orci quis ex maximus placerat. Aenean ultricies felis id
           luctus vulputate.
         </p>
-        <Button text="Download CV" onClick={() => console.log("HI")}/>
+        <Button text="Download CV" onClick={() => console.log("HI")} />
       </div>
     </section>
   );
