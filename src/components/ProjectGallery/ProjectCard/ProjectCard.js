@@ -3,7 +3,7 @@ import classes from "./ProjectCard.module.css";
 import Card from "../../UI/Card/Card";
 
 const ProjectCard = (props) => {
-  const generateImage = (src) => {
+  const generateImage = () => {
     return (
       <div className={classes["img-container"]}>
         <img src={props.img} alt=""/>

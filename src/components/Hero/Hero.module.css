@@ -9,7 +9,7 @@
   position: relative;
   color: white;
   padding: 4rem;
-  /* visibility: hidden; */
+  pointer-events: none;
 }
 
 .picture {
@@ -31,9 +31,5 @@
 .bg-content {
   width: 100%;
   height: 100%;
-  max-width: 65rem;
   position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
 }
-
