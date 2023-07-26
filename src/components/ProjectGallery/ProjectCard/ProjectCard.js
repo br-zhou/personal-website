@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
   const generateImage = (src) => {
     return (
       <div className={classes["img-container"]}>
-        <img src={props.img} />
+        <img src={props.img} alt=""/>
       </div>
     );
   };

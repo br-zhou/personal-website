@@ -1,7 +1,7 @@
 import Button from "../UI/Button/Button";
 import Gallery from "./Gallery/Gallery";
 import TitleSection from "../UI/TitleSection/TitleSection";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
