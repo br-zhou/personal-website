@@ -1,25 +1,10 @@
 import classes from "./Hero.module.css";
-import dinoImg from "../../assets/dino-x64-animated.gif";
 
 const Hero = () => {
   return (
-    <div className={classes.background}>
+    <div className={classes.container}>
       <div className={classes["bg-content"]}>
-        <div className={classes.sun}></div>
-        <div className={classes.clouds}>
-          <div className={classes.cloud}></div>
-        </div>
-        <div id={classes["left-hill"]} className={classes.hill}></div>
-        <div id={classes["right-hill"]} className={classes.hill}></div>
-        <div id={classes.dino}>
-          <img
-            src={dinoImg}
-            draggable="false"
-            id={classes["dino-img"]}
-            alt="red dino"
-          />
-          <div id={classes["dino-shadow"]}></div>
-        </div>
+
       </div>
 
       <div className={classes["main-content"]}>

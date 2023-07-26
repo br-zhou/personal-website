@@ -1,4 +1,4 @@
-.background {
+.container {
   background-color: rgb(33, 33, 49);
   position: relative;
   overflow: hidden;
@@ -9,6 +9,7 @@
   position: relative;
   color: white;
   padding: 4rem;
+  /* visibility: hidden; */
 }
 
 .picture {
@@ -17,14 +18,11 @@
 }
 
 .title {
-  font-size: 3.5rem;
-  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
   margin: 1rem;
 }
 
 .description {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
   font-size: 1.5rem;
 }
 
@@ -34,161 +32,8 @@
   width: 100%;
   height: 100%;
   max-width: 65rem;
-  background-color: skyblue;
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
 }
 
-.sun {
-  position: absolute;
-  top: 1rem;
-  right: 10%;
-  width: 125px;
-  height: 125px;
-  background-color: rgb(255, 222, 0);
-  border-radius: 50%;
-
-  box-shadow: 0 0 0 0 rgba(255, 222, 0, 0.5), 0 0 0 20px rgba(255, 222, 0, 0.5),
-    0 0 0 40px rgba(255, 222, 0, 0.25), 0 0 40px 60px rgba(255, 222, 0, 0.25);
-
-  animation: sunrise 2s infinite linear forwards, rays 2s 2s infinite linear;
-}
-
-@keyframes sunrise {
-  0% {
-    box-shadow: none;
-  }
-}
-
-@keyframes rays {
-  0% {
-    box-shadow: 0 0 0 0 rgba(255, 222, 0, 0.5),
-      0 0 0 20px rgba(255, 222, 0, 0.5), 0 0 0 40px rgba(255, 222, 0, 0.25),
-      0 0 40px 60px rgba(255, 222, 0, 0.25);
-  }
-
-  100% {
-    box-shadow: 0 0 0 20px rgba(255, 222, 0, 0.5),
-      0 0 0 40px rgba(255, 222, 0, 0.25), 0 0 0 60px rgba(255, 222, 0, 0),
-      0 0 40px 60px rgba(255, 222, 0, 0.25);
-  }
-}
-
-/* Credit: Sun inspired by https://codepen.io/hirokbanik/pen/pozYZgP */
-
-.hill {
-  position: absolute;
-  box-shadow: 0 0 0 10px rgb(57, 178, 57, 0.4);
-}
-
-#left-hill {
-  background-color: rgb(57, 178, 57);
-  bottom: -250px;
-  left: -1000px;
-  width: 2000px;
-  height: 500px;
-  border-top-right-radius: 100%;
-  z-index: -9;
-}
-
-#right-hill {
-  background-color: rgb(76, 190, 47);
-  border-top-left-radius: 100%;
-  bottom: -300px;
-  right: -1000px;
-  width: 2000px;
-  height: 450px;
-  z-index: -10;
-}
-
-#dino {
-  position: absolute;
-  bottom: 50px;
-  left: 20%;
-  visibility: hidden;
-}
-
-#dino-img {
-  width: 200px;
-  image-rendering: pixelated;
-  -ms-interpolation-mode: nearest-neighbor;
-}
-
-#dino-shadow {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-  width: 100px;
-  height: 25px;
-  bottom: 15px;
-  right: 40px;
-  z-index: -1;
-  box-shadow: -5px 5px 0 10px rgba(0, 0, 0, 0.25);
-}
-
-/* Clouds */
-
-.cloud {
-  background-color: white;
-  border-radius: 50px;
-  height: 75px;
-  width: 250px;
-  left: 100px;
-  top: 100px;
-  position: absolute;
-  animation: 10s infinite swell, 4s infinite bob;
-  box-shadow: 0 0 0 10px rgba(250, 250, 250, .5);
-}
-
-.cloud::before {
-  content: "";
-  background-color: white;
-  border-radius: 50%;
-  height: 150%;
-  width: 50%;
-  position: absolute;
-  bottom: 20px;
-  left: 35%;
-  box-shadow: 0 0 0 10px rgba(250, 250, 250, .5);
-  animation: 20s infinite bob;
-}
-
-.cloud::after {
-  content: "";
-  background-color: white;
-  border-radius: 50%;
-  height: 90px;
-  width: 90px;
-  position: absolute;
-  top: -50%;
-  left: 15%;
-  animation: 5s infinite swell;
-  box-shadow: 0 0 0 10px rgba(250, 250, 250, .5);
-}
-
-@keyframes swell {
-  from {
-    scale: 1;
-  }
-  50% {
-    scale: 1.1;
-  }
-  to {
-    scale: 1;
-  }
-}
-
-@keyframes bob {
-  from {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10%);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
-
-/* Credit: Cloud taken from: https://codepen.io/s-hens/pen/WNYNbQm */
