@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className={classes.footer}>
       <div>
         <div className={classes["icons-container"]}>
-          <a href="https://github.com/">
+          <a href="https://github.com/br-zhou" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width={ICON_SIZE}
@@ -19,7 +19,7 @@ const Footer = () => {
             </svg>
           </a>
           
-          <a href="https://linkedin.com/">
+          <a href="https://www.linkedin.com/in/br-zhou/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width={ICON_SIZE}
@@ -31,7 +31,7 @@ const Footer = () => {
             </svg>
           </a>
 
-          <a href="https://instagram.com/">
+          <a href="https://www.instagram.com/br_zhou/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width={ICON_SIZE}
