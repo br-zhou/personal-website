@@ -1,10 +1,11 @@
+import HeroAnimation from "./Animation/Animation";
 import classes from "./Hero.module.css";
 
 const Hero = () => {
   return (
     <div className={classes.container}>
       <div className={classes["bg-content"]}>
-
+        <HeroAnimation />
       </div>
 
       <div className={classes["main-content"]}>
