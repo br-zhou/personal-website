@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
   const generateImage = () => {
     return (
       <div className={classes["img-container"]}>
-        <img src={props.img} alt=""/>
+        <img src={props.img} alt="" loading="lazy"/>
       </div>
     );
   };
