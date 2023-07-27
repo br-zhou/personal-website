@@ -8,16 +8,16 @@ const SkillsList = (props) => {
   if (!skillsData) return <p>An Error Occurred</p>;
   const skills = Object.keys(skillsData);
 
-  const createSkillItem = (skill) => {
+  const createSkillItem = (skill, index) => {
     const percent = skillsData[skill];
     let level = "Developing";
     if (percent > 50) level = "Proficient";
     if (percent > 80) level = "Advanced";
 
-    return <SkillItem title={skill} percent={`${percent}%`} level={level} />;
+    return <SkillItem key={`si-${index}`} title={skill} percent={`${percent}%`} level={level} />;
   };
 
-  return <SplitHalf>{skills.map((skill) => createSkillItem(skill))}</SplitHalf>;
+  return <SplitHalf>{skills.map((skill, index) => createSkillItem(skill, index))}</SplitHalf>;
 };
 
 export default SkillsList;

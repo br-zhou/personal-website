@@ -15,12 +15,12 @@ const SKILLS_DATA = {
     "Socket.io" : 50,
   },
   "Tools": {
-    "Node.js" : 90,
+    "Git" : 75,
     "Bash" : 65,
-    "AWS" : 30,
+    "Node.js" : 75,
     "Unity" : 90,
     "Ubuntu" : 80,
-    "Git" : 75,
+    "AWS" : 30,
   },
 };
 
