@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
   const generateImage = () => {
     return (
       <div className={classes["img-container"]}>
-        <img src={props.img} alt="" loading="lazy"/>
+        <img src={props.thumb} alt="" loading="lazy"/>
       </div>
     );
   };
@@ -15,7 +15,7 @@ const ProjectCard = (props) => {
     <div className={classes.container}>
       <Link to={`${props.id}`} className={classes.link}>
         <Card className={classes.card}>
-          {props.img && generateImage()}
+          {props.thumb && generateImage()}
           <h1>{props.title}</h1>
           <p>{props.desc}</p>
         </Card>
