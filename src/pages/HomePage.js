@@ -1,7 +1,7 @@
 import Hero from "../components/Hero/Hero";
 import About from "../components/About/About";
 import Skills from "../components/Skills/Skills";
-import Projects from "../components/Projects/Projects";
+import FeaturedProject from "../components/FeaturedProject/FeaturedProject";
 
 const HomePage = () => {
   return (
@@ -9,7 +9,7 @@ const HomePage = () => {
       <Hero />
       <About />
       <Skills />
-      <Projects />
+      <FeaturedProject />
     </>
   );
 };
