@@ -5,7 +5,7 @@ const HeroAnimation = () => {
     <div className={classes.doodles}>
       <div>
         <img
-          src="https://cdn.discordapp.com/attachments/803481006446870598/1133923684986396712/icon-invert.png"
+          src="https://cdn.discordapp.com/attachments/803481006446870598/1133930696562454569/export-i.gif"
           alt="scribble"
           loading="lazy"
         />
