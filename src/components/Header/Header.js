@@ -3,7 +3,7 @@ import logo from "../../assets/logox64.png";
 import BurgerSvg from "./BurgerSvg";
 import classes from "./Header.module.css";
 import XSvg from "./XSvg";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   const [isSidebarActive, setSidebarActive] = useState(false);
@@ -20,7 +20,7 @@ const Header = () => {
     return <div className={classes.backdrop} onClick={closeSidebar}></div>;
   };
 
-  const isActivePage = ({isActive}) => {
+  const isActivePage = ({ isActive }) => {
     return isActive ? classes["active-page"] : "";
   };
 
@@ -28,17 +28,18 @@ const Header = () => {
     <>
       {isSidebarActive && sidebarBackdrop()}
       <header className={classes.header}>
-        <div className={classes["home-button"]}>
-          <img
-            src={logo}
-            alt="website logo"
-            className={classes["navbar-icon"]}
-            draggable={false}
-            width={24}
-          />
-          <h2 className={classes["navbar-title"]}>Brian Zhou</h2>
-        </div>
-
+        <Link to="/">
+          <div className={classes["home-button"]}>
+            <img
+              src={logo}
+              alt="website logo"
+              className={classes["navbar-icon"]}
+              draggable={false}
+              width={24}
+            />
+            <h2 className={classes["navbar-title"]}>Brian Zhou</h2>
+          </div>
+        </Link>
         <div>
           <div className={classes["burger-btn"]} onClick={toggleSidebar}>
             <BurgerSvg size="24" />
