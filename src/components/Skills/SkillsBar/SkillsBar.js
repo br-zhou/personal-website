@@ -1,18 +1,15 @@
-import { useState } from "react";
 import classes from "./SkillsBar.module.css";
 
-const SkillsBar = () => {
-  const TABS = ["Languages", "Libraries/Frameworks", "Tools"];
-
-  const [selectTab, setSelectedTab] = useState(TABS[0]);
+const SkillsBar = (props) => {
+  const {activeTab, setActiveTab} = props;
 
   const createTab = (title) => {
     return (
       <li
         key={title}
-        className={`${selectTab === title && classes.active}`}
+        className={`${activeTab === title && classes.active}`}
         onClick={() => {
-          setSelectedTab(title);
+          setActiveTab(title);
         }}
       >
         {title}
@@ -21,7 +18,7 @@ const SkillsBar = () => {
   };
 
   return (
-    <ul className={classes.navbar}>{TABS.map((tab) => createTab(tab))}</ul>
+    <ul className={classes.navbar}>{props.tabs.map((tab) => createTab(tab))}</ul>
   );
 };
 

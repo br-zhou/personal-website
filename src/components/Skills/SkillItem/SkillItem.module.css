@@ -4,8 +4,10 @@
   text-align: left;
 }
 
-.right-float {
+.level {
   float: right;
+  color: gray;
+  font-size: 1rem;
 }
 
 .text h3 {

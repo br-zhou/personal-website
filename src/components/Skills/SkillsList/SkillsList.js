@@ -2,15 +2,22 @@ import SkillItem from "../SkillItem/SkillItem";
 import SplitHalf from "../../UI/SplitHalf/SplitHalf";
 
 const SkillsList = (props) => {
-  return (
-    <SplitHalf>
-      <SkillItem title="Javascript" skillLevel="Intermediate" percent="78%" />
-      <SkillItem title="C++" skillLevel="Advanced" />
-      <SkillItem title="3" skillLevel="99%" />
-      <SkillItem title="4" />
-      <SkillItem title="5" />
-    </SplitHalf>
-  );
+  const { activeTab, data } = props;
+  const skillsData = data[activeTab];
+
+  if (!skillsData) return <p>An Error Occurred</p>;
+  const skills = Object.keys(skillsData);
+
+  const createSkillItem = (skill) => {
+    const percent = skillsData[skill];
+    let level = "Developing";
+    if (percent > 50) level = "Proficient";
+    if (percent > 80) level = "Advanced";
+
+    return <SkillItem title={skill} percent={`${percent}%`} level={level} />;
+  };
+
+  return <SplitHalf>{skills.map((skill) => createSkillItem(skill))}</SplitHalf>;
 };
 
 export default SkillsList;

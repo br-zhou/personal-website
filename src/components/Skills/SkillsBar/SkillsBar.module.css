@@ -1,5 +1,6 @@
 .active {
-  background-color: lightblue;
+  background-color: rgb(207, 238, 249);
+  border-bottom: 2px solid black;
 }
 
 .navbar {
@@ -16,6 +17,10 @@
   cursor: pointer;
 }
 
+.navbar li {
+  box-sizing: border-box;
+}
+
 .navbar li:hover {
-  background-color: gray;
+  background-color: rgb(220, 244, 253);
 }
