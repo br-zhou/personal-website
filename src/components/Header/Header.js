@@ -56,12 +56,12 @@ const Header = () => {
               <XSvg size="48" />
             </li>
             <li>
-              <NavLink to="/" className={isActivePage} end="true">
+              <NavLink to="/" className={isActivePage} end="true" onClick={closeSidebar}>
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/projects" className={isActivePage}>
+              <NavLink to="/projects" className={isActivePage}  onClick={closeSidebar}>
                 Projects
               </NavLink>
             </li>
