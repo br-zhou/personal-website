@@ -80,7 +80,11 @@ export const PROJECT_DETAILS = {
   "ubc-avionics": {
     title: "UBC Rocket Avionics",
     desc: "blah blach blach blach blach blah blach blach blach blach",
-    img: ["https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg"],
+    img: [
+      "https://cdn.discordapp.com/attachments/803481006446870598/1134181009429119156/IMG_20221106_151538-min.jpg",
+      "https://cdn.discordapp.com/attachments/803481006446870598/1134181009101955142/IMG_20221106_151535-min.jpg",
+      "https://cdn.discordapp.com/attachments/803481006446870598/1134181624850960434/IMG_20221103_204740-min.jpg",
+    ],
   },
   "dino-brawl": {
     title: "Multiplayer Game",
@@ -95,7 +99,7 @@ export const PROJECT_DETAILS = {
     img: [
       "https://cdn.discordapp.com/attachments/763170133937618954/1133853565463560272/52208909716_76e468db7c_o.jpg",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1133853147031425154/20220529_195455.jpg",
-      "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg",
+      "https://cdn.discordapp.com/attachments/803481006446870598/1134185757578379334/IMG_7544.jpg",
     ],
   },
   "candy-exterminator": {
