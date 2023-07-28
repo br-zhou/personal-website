@@ -18,6 +18,8 @@
 .picture {
   border-radius: 50%;
   border: solid 0.5rem white;
+  width: 275px;
+  height: 275px;
 }
 
 .title {

@@ -10,7 +10,7 @@ const Hero = () => {
 
       <div className={classes["main-content"]}>
         <img
-          src="https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg"
+          src="https://cdn.discordapp.com/attachments/803481006446870598/1134302100529090732/thumb-square.jpg"
           alt="profile"
           className={classes.picture}
           draggable="false"
