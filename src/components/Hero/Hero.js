@@ -15,8 +15,12 @@ const Hero = () => {
           className={classes.picture}
           draggable="false"
         />
-        <h1 className={classes.title}>Brian Zhou</h1>
-        <p className={classes.description}>Student, Programmer, and Game Developer</p>
+        <div className={classes["text-container"]}>
+          <h1 className={classes.title}>Brian Zhou</h1>
+          <p className={classes.description}>
+            Student, Programmer, and Game Developer
+          </p>
+        </div>
       </div>
     </div>
   );
