@@ -92,9 +92,8 @@ export const PROJECT_DETAILS = {
     desc: "blah blach blach blach blach blah blach blach blach blach",
     img: [
       "https://cdn.discordapp.com/attachments/1123397647785533561/1131341171982086154/image.png",
-      "https://cdn.discordapp.com/attachments/1123397647785533561/1134246981980672140/image.jpg",
-      "https://cdn.discordapp.com/attachments/1123397647785533561/1134248414008328272/image.png",
-      "https://cdn.discordapp.com/attachments/1123397647785533561/1134247572169568317/image.png",
+      "https://cdn.discordapp.com/attachments/1123397647785533561/1134322124044111912/physics.jpg",
+      "https://cdn.discordapp.com/attachments/1123397647785533561/1134328471598936125/map_editor.jpg",
     ],
   },
   csdc: {
