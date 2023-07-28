@@ -12,6 +12,7 @@ export const FEATURED_PROJECTS = [
     desc: "blah blach blach blach blach blah blach blach blach blach",
     thumb:
       "https://cdn.discordapp.com/attachments/1123397647785533561/1131341171982086154/image.png",
+    badge: true,
   },
   {
     id: "csdc",
