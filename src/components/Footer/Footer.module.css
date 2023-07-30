@@ -34,6 +34,9 @@
   transition: all 0.1s linear 0s;
 }
 
-.icons-container > a:hover {
-  transform: scale(1.25);
+
+@media (any-hover: hover) and (pointer: fine) {
+  .icons-container > a:hover {
+    transform: scale(1.25);
+  }  
 }

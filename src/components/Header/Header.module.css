@@ -21,11 +21,6 @@
   transition: transform 0.075s linear;
 }
 
-.home-button:hover {
-  transform: scale(1.05) rotate(-2deg);
-  cursor: pointer;
-}
-
 .navbar-icon {
   margin: auto 10px;
 }
@@ -55,7 +50,7 @@ ul {
   margin: 0;
 }
 
-.nav-links li a:hover, .active-page {
+.active-page {
   background-color: black;
 }
 
@@ -65,10 +60,6 @@ ul {
   cursor: pointer;
   display: none;
   padding: 16px;
-}
-
-.burger-btn:hover {
-  background-color: black;
 }
 
 #burger-checkbox {
@@ -110,10 +101,6 @@ ul {
     cursor: pointer;
   }
 
-  #burger-x-btn:hover {
-    background-color: black;
-  }
-
   .backdrop {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
@@ -133,5 +120,18 @@ ul {
 
   100% {
     opacity: 1;
+  }
+}
+
+@media (any-hover: hover) and (pointer: fine) {
+  .home-button:hover {
+    transform: scale(1.05) rotate(-2deg);
+    cursor: pointer;
+  }
+
+  .nav-links li a:hover,
+  .burger-btn:hover,
+  #burger-x-btn:hover {
+    background-color: black;
   }
 }
