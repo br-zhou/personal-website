@@ -15,19 +15,28 @@
   background-color: white;
   color: black;
   box-sizing: border-box;
-  border: solid 1px black;
+  border: solid 2px black;
 }
 
 .pill {
   border-radius: 50rem;
 }
 
+.disabled {
+  border: 2px solid #cccccc;
+  background-color: rgb(229, 229, 229);
+  color: #8d8d8d;
+  pointer-events: none;
+  user-select: none;
+}
+
+
 @media (any-hover: hover) and (pointer: fine) {
+  .button:hover {
+    background-color: rgb(137, 53, 60);
+  }
   .secondary:hover {
     background-color: #333;
     color: white;
-  }
-  .button:hover {
-    background-color: rgb(137, 53, 60);
   }
 }

@@ -100,6 +100,10 @@ export const PROJECT_DETAILS = {
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134322124044111912/physics.jpg",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134328471598936125/map_editor.jpg",
     ],
+    btn: {
+      type: "disabled",
+      text: "Coming Soon!",
+    },
   },
   csdc: {
     title: "Canadian Satellite Design Challenge",
@@ -109,16 +113,25 @@ export const PROJECT_DETAILS = {
       "https://cdn.discordapp.com/attachments/1123397647785533561/1135254085428326541/image.jpg",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1135254690716733511/New_Project.jpg",
     ],
+    btn: {
+      link: "http://www.fhscienceacademy.ca/[SA]Zephyr.html",
+      text: "See Article!",
+    },
   },
   "candy-exterminator": {
     title: "Candy Exterminator",
-    desc: "Fully created for the 2022 $PLAY game jam, which spanned two weeks. Won first place. The game’s objective is to clear out levels by destroying evil gummy bears.",
+    desc: "Fully created for the 2020 $PLAY game jam, which spanned two weeks. Won first place. The game’s objective is to clear out levels by destroying evil gummy bears.",
     img: [
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134217219237224509/main_menu.jpg",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134217443934482574/image.png",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134218225471725608/image.png",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134210755705708584/image_3.jpg",
     ],
+
+    btn: {
+      link: "https://identitydeficiency.itch.io/the-candy-exterminator",
+      text: "Play Online!",
+    },
   },
   "app-blocker": {
     title: "Python App & Site Blocker",
@@ -128,6 +141,11 @@ export const PROJECT_DETAILS = {
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134216404627894313/image.png",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134216628184285234/image.png",
     ],
+
+    btn: {
+      link: "https://www.youtube.com/watch?v=9tTuM99Hxrs&feature=youtu.be",
+      text: "Watch Demo!",
+    },
   },
   "fh-clubs": {
     title: "School Website",
@@ -138,6 +156,9 @@ export const PROJECT_DETAILS = {
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134219427827699742/image.png",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134219760079483072/image.png",
     ],
+    btn: {
+      link: "https://www.fhclubs.ca",
+    },
   },
   "personal-site": {
     title: "Personal Website",
@@ -145,6 +166,10 @@ export const PROJECT_DETAILS = {
     img: [
       "https://cdn.discordapp.com/attachments/1123397647785533561/1131336875857170463/image.png",
     ],
+    btn: {
+      link: "https://github.com/br-zhou/personal-website",
+      text: "View Source Code!",
+    },
   },
   "flash-game": {
     title: "Space Fighter",
