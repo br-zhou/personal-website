@@ -19,6 +19,13 @@
   font-weight: 600;
 }
 
+@media screen and (max-width: 768px) {
+  .bg-text {
+    font-size: 5rem;
+    color: gray;
+  }
+}
+
 .container * {
   position: absolute;
   margin: 0;
