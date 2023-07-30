@@ -21,6 +21,8 @@
   box-sizing: border-box;
 }
 
-.navbar li:hover {
-  background-color: rgb(220, 244, 253);
+@media (any-hover: hover) and (pointer: fine) {
+  .navbar li:hover {
+    background-color: rgb(220, 244, 253);
+  }  
 }
