@@ -85,7 +85,7 @@ export const OTHER_PROJECTS = [
 export const PROJECT_DETAILS = {
   "ubc-avionics": {
     title: "UBC Rocket Avionics",
-    desc: "Worked in a team to develop and test custom aerospace-grade electronics. Debugged mission-critical code and designed solutions for radio communications to space. Participated in bi-weekly meetings with the team to give updates and plan goals.",
+    desc: "Collaborated with a team to develop and test aerospace-grade electronics. Successfully debugged mission-critical code, ensuring the reliability of electronic systems. Designed solutions for radio communications technology tailored for space missions. Actively contributed in bi-weekly team meetings, providing progress updates, sharing insights, and strategizing to achieve project milestones.",
     img: [
       "https://cdn.discordapp.com/attachments/803481006446870598/1134181009429119156/IMG_20221106_151538-min.jpg",
       "https://cdn.discordapp.com/attachments/803481006446870598/1134181009101955142/IMG_20221106_151535-min.jpg",
@@ -107,7 +107,7 @@ export const PROJECT_DETAILS = {
   },
   csdc: {
     title: "Canadian Satellite Design Challenge",
-    desc: "Coordinated with teammates to design and implement the onboard state machine, allowing the satellite to perform multiple missions during the same launch. We were chosen to represent Canada in the International CanSat Competition, held by the European Space Agency.",
+    desc: "Coordinated with teammates to design and implement the onboard state machine, enabling the satellite to accomplish multiple missions within a single launch. We were chosen to represent Canada in the International CanSat Competition, held by the European Space Agency.",
     img: [
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134230447547756574/compressed.jpg",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1135254085428326541/image.jpg",
@@ -120,7 +120,7 @@ export const PROJECT_DETAILS = {
   },
   "candy-exterminator": {
     title: "Candy Exterminator",
-    desc: "Fully created for the 2020 $PLAY game jam, which spanned two weeks. Won first place. The game’s objective is to clear out levels by destroying evil gummy bears.",
+    desc: "Designed and fully developed during the two-week-long 2020 $PLAY Game Jam, securing first place. Created an engaging gameplay experience with the objective of clearing levels by strategically eliminating evil gummy bears.",
     img: [
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134217219237224509/main_menu.jpg",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134217443934482574/image.png",
@@ -135,7 +135,7 @@ export const PROJECT_DETAILS = {
   },
   "app-blocker": {
     title: "Python App & Site Blocker",
-    desc: "Utilized Python and the Windows Command Line to block applications and override DNS lookup. Designed an effective graphical interface for easy use of the application.",
+    desc: "Leveraged Python, the Windows Command Line, and DNS overriding to develop a website and application blocker. Designed and integrated an intuitive graphical interface, ensuring easy application usage.",
     img: [
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134215823653871626/image.png",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134216404627894313/image.png",
@@ -149,7 +149,7 @@ export const PROJECT_DETAILS = {
   },
   "fh-clubs": {
     title: "School Website",
-    desc: "Participating in clubs was a big part of my highschool experience. By trying out clubs, I was able to make new friends and discover my hobbies. I helped create this website because I wanted more students to express their passions through clubs.",
+    desc: "Participating in clubs played a significant role in shaping my high school experience. Exploring various clubs helped me to create valuable friendships and discover new passions. Hence, I created this website to provide new students with a platform to easily find and pursue their interests through club activities.",
     img: [
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134219004031029458/image.png",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134219173208276992/image.png",
