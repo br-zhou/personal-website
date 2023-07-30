@@ -17,7 +17,7 @@ const About = () => {
           software engineering skills. As a curious individual, I am always
           looking for new challenges and opportunities!
         </p>
-        {/* <Button text="Download CV" onClick={downloadCVHandler} /> */}
+        <Button text="Download CV" onClick={downloadCVHandler} />
       </div>
     </section>
   );

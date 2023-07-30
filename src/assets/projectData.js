@@ -106,8 +106,8 @@ export const PROJECT_DETAILS = {
     desc: "Coordinated with teammates to design and implement the onboard state machine, allowing the satellite to perform multiple missions during the same launch. We were chosen to represent Canada in the International CanSat Competition, held by the European Space Agency.",
     img: [
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134230447547756574/compressed.jpg",
-      "https://cdn.discordapp.com/attachments/1123397647785533561/1133853147031425154/20220529_195455.jpg",
-      "https://cdn.discordapp.com/attachments/803481006446870598/1134185757578379334/IMG_7544.jpg",
+      "https://cdn.discordapp.com/attachments/1123397647785533561/1135254085428326541/image.jpg",
+      "https://cdn.discordapp.com/attachments/1123397647785533561/1135254690716733511/New_Project.jpg",
     ],
   },
   "candy-exterminator": {
