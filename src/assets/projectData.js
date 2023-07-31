@@ -111,7 +111,7 @@ export const PROJECT_DETAILS = {
     img: [
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134230447547756574/compressed.jpg",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1135254085428326541/image.jpg",
-      "https://cdn.discordapp.com/attachments/1123397647785533561/1135254690716733511/New_Project.jpg",
+      "https://cdn.discordapp.com/attachments/1123397647785533561/1135402249242296320/image_1.jpg",
     ],
     btn: {
       link: "http://www.fhscienceacademy.ca/[SA]Zephyr.html",
@@ -162,7 +162,7 @@ export const PROJECT_DETAILS = {
   },
   "personal-site": {
     title: "Personal Website",
-    desc: "This website was built from scratch using React and deployed through Google Firebase. Content is served through a CDN to improve loading time.",
+    desc: "Designed and developed a responsive UI design using React.js with high global CSS coverage, maximizing the number of users who can intuitively access content. Successfully deployed the website using Google Firebase, ensuring high availability and scalability. Utilized a Content Delivery Network (CDN) to decrease loading times, enhancing user engagement.",
     img: [
       "https://cdn.discordapp.com/attachments/1123397647785533561/1131336875857170463/image.png",
     ],
