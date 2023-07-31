@@ -87,9 +87,9 @@ export const PROJECT_DETAILS = {
     title: "UBC Rocket Avionics",
     desc: "Collaborated with a team to develop and test aerospace-grade electronics. Successfully debugged mission-critical code, ensuring the reliability of electronic systems. Designed solutions for radio communications technology tailored for space missions. Actively contributed in bi-weekly team meetings, providing progress updates, sharing insights, and strategizing to achieve project milestones.",
     img: [
-      "https://cdn.discordapp.com/attachments/803481006446870598/1134181009429119156/IMG_20221106_151538-min.jpg",
-      "https://cdn.discordapp.com/attachments/803481006446870598/1134181009101955142/IMG_20221106_151535-min.jpg",
-      "https://cdn.discordapp.com/attachments/803481006446870598/1134181624850960434/IMG_20221103_204740-min.jpg",
+      "https://cdn.discordapp.com/attachments/1123397647785533561/1135636301224357928/p1min.jpg",
+      "https://cdn.discordapp.com/attachments/1123397647785533561/1135636301610229891/p2min.jpg",
+      "https://cdn.discordapp.com/attachments/1123397647785533561/1135636300855255140/p3min.jpg",
     ],
   },
   "dino-brawl": {
@@ -188,6 +188,10 @@ export const PROJECT_DETAILS = {
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134221263519363263/image.png",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134221493962813490/image.png",
     ],
+    btn: {
+      link: "https://github.com/br-zhou/Java-Quiz-Appication",
+      text: "View Source Code!",
+    },
   },
   "black-jack": {
     title: "Black Jack",
