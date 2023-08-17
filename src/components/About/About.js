@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Button from "../UI/Button/Button";
 import classes from "./About.module.css";
 
@@ -14,9 +13,13 @@ const About = () => {
           software engineering skills. As a curious individual, I am always
           looking for new challenges and opportunities!
         </p>
-        <Link to="https://cdn.discordapp.com/attachments/803481006446870598/1139613705982705694/Brian_Zou_CV_8-11-23.pdf">
-          <Button text="Download CV" />
-        </Link>
+        <a
+          href="https://df5tclvuiqm9z.cloudfront.net/Brian_Zhou_Resume.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button text="View Resume" />
+        </a>
       </div>
     </section>
   );
