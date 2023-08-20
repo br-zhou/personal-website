@@ -14,7 +14,7 @@ const About = () => {
           looking for new challenges and opportunities!
         </p>
         <a
-          href="https://df5tclvuiqm9z.cloudfront.net/Brian_Zhou_Resume.pdf"
+          href="https://cdn.br-zhou.com/Brian_Zhou_Resume.pdf"
           target="_blank"
           rel="noreferrer"
         >
