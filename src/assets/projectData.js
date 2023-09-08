@@ -42,6 +42,13 @@ export const FEATURED_PROJECTS = [
     thumb:
       "https://cdn.discordapp.com/attachments/1123397647785533561/1131339690801381448/export.png",
   },
+  {
+    id: "chat-app",
+    title: "Discord Clone",
+    desc: "React.js, Node.js, Socket.io, AWS",
+    thumb:
+      "https://cdn.discordapp.com/attachments/803481006446870598/1149558268117659668/export.jpg",
+  },
 ];
 
 export const OTHER_PROJECTS = [
@@ -213,7 +220,6 @@ export const PROJECT_DETAILS = {
       "https://cdn.discordapp.com/attachments/1123397647785533561/1135032204527931403/image.png",
     ],
   },
-
   "unity-game": {
     title: "3D Platformer",
     desc: "This is my first Unity game, which I built when I was 13. The game is a simple 3d platformer, where the objective is to collect coins and reach the end of the level. The game was built using the aid of online tutorials.",
@@ -222,5 +228,18 @@ export const PROJECT_DETAILS = {
       "https://cdn.discordapp.com/attachments/1123397647785533561/1135060719340093491/image.png",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1135061944135598130/image.png",
     ],
+  },
+  "chat-app": {
+    title: "Real-Time Chat App",
+    desc: "Developed a functional real-time chat application using React, Node.js, Express, and Socket.io. Strengthened application security by implementing password hashing and token-based authentication. Enabled persistent storage of credentials by leveraging MySQL. Successfully deployed the application using AWS’s S3, RDS, and EC2 services.",
+    img: [
+      "https://cdn.discordapp.com/attachments/803481006446870598/1149560169798320178/s1.jpg",
+      "https://cdn.discordapp.com/attachments/803481006446870598/1149561039730528266/s2.jpg",
+      "https://cdn.discordapp.com/attachments/803481006446870598/1149561742012199003/s3.jpg",
+    ],
+    btn: {
+      type: "disabled",
+      text: "Contact me for access.",
+    },
   },
 };

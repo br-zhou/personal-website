@@ -12,7 +12,7 @@ const SKILLS_DATA = {
     "React" : 90,
     "Redux" : 90,
     "Three.js" : 75,
-    "Socket.io" : 50,
+    "Socket.io" : 85,
   },
   "Tools": {
     "Git" : 75,
@@ -20,7 +20,7 @@ const SKILLS_DATA = {
     "Node.js" : 75,
     "Unity" : 90,
     "Ubuntu" : 80,
-    "AWS" : 30,
+    "AWS" : 65,
   },
 };
 
