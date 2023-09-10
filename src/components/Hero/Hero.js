@@ -10,7 +10,7 @@ const Hero = () => {
 
       <div className={classes["main-content"]}>
         <img
-          src="https://cdn.discordapp.com/attachments/803481006446870598/1134302100529090732/thumb-square.jpg"
+          src="https://cdn.br-zhou.com/profile_picture.jpg"
           alt="profile"
           className={classes.picture}
           draggable="false"
