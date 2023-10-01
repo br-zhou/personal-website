@@ -94,8 +94,8 @@ export const PROJECT_DETAILS = {
     title: "UBC Rocket Avionics",
     desc: "Collaborated with a team to develop and test aerospace-grade electronics. Successfully debugged mission-critical code, ensuring the reliability of electronic systems. Designed solutions for radio communications technology tailored for space missions. Actively contributed in bi-weekly team meetings, providing progress updates, sharing insights, and strategizing to achieve project milestones.",
     img: [
-      "https://cdn.discordapp.com/attachments/1123397647785533561/1135636301224357928/p1min.jpg",
-      "https://cdn.discordapp.com/attachments/1123397647785533561/1135636301610229891/p2min.jpg",
+      "https://cdn.discordapp.com/attachments/803481006446870598/1157888829399760926/p1.jpg",
+      "https://cdn.discordapp.com/attachments/803481006446870598/1157890198823247953/p2.jpg",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1135636300855255140/p3min.jpg",
     ],
   },
@@ -127,7 +127,7 @@ export const PROJECT_DETAILS = {
   },
   "candy-exterminator": {
     title: "Candy Exterminator",
-    desc: "Designed and fully developed during the two-week-long 2020 $PLAY Game Jam, securing first place. Created an engaging gameplay experience with the objective of clearing levels by strategically eliminating evil gummy bears.",
+    desc: "Designed and fully developed during the two-week-long 2021 $PLAY Game Jam, securing first place. Created an engaging gameplay experience with the objective of clearing levels by strategically eliminating evil gummy bears.",
     img: [
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134217219237224509/main_menu.jpg",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1134217443934482574/image.png",
