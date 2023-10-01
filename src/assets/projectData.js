@@ -97,6 +97,7 @@ export const PROJECT_DETAILS = {
       "https://cdn.discordapp.com/attachments/803481006446870598/1157888829399760926/p1.jpg",
       "https://cdn.discordapp.com/attachments/803481006446870598/1157890198823247953/p2.jpg",
       "https://cdn.discordapp.com/attachments/1123397647785533561/1135636300855255140/p3min.jpg",
+      "https://cdn.discordapp.com/attachments/803481006446870598/1158067906756739113/p3.jpg",
     ],
   },
   "dino-brawl": {
