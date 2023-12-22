@@ -45,7 +45,7 @@ export const FEATURED_PROJECTS = [
   {
     id: "chat-app",
     title: "Discord Clone",
-    desc: "React.js, Node.js, Socket.io, AWS",
+    desc: "React.js, Node.js, Socket.io, MySQL, AWS",
     thumb:
       "https://cdn.discordapp.com/attachments/803481006446870598/1149558268117659668/export.jpg",
   },
@@ -86,6 +86,11 @@ export const OTHER_PROJECTS = [
     id: "physics-engine",
     title: "Custom Physics Engine",
     desc: "Javascript",
+  },
+  {
+    id: "fitness-app",
+    title: "Fitness App",
+    desc: "React.js, Oracle SQLPlus, Node.js, TailwindCSS",
   },
 ];
 
@@ -241,6 +246,21 @@ export const PROJECT_DETAILS = {
     btn: {
       type: "disabled",
       text: "Contact me for access.",
+    },
+  },
+  "fitness-app": {
+    title: "Fitness App",
+    desc: "Actively led and collaborated in a team of three to create an online fitness app. Successfully planned project timeline, discussed and carried out implementation, and conducted weekly group meetings to update progress and trouble integration issues.",
+    img: [
+      "https://cdn.discordapp.com/attachments/803481006446870598/1187678508206542909/s2.jpg",
+      "https://cdn.discordapp.com/attachments/803481006446870598/1187678961128448040/s3.jpg",
+      "https://cdn.discordapp.com/attachments/803481006446870598/1187678133093158962/s1.jpg",
+      "https://cdn.discordapp.com/attachments/803481006446870598/1187679519818141756/s4.jpg",
+      "https://cdn.discordapp.com/attachments/803481006446870598/1187686433339736104/s5.jpg",
+    ],
+    btn: {
+      link: "https://github.com/br-zhou/exercise-db-app",
+      text: "View Source Code!",
     },
   },
 };
