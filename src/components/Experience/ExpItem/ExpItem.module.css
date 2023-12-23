@@ -1,0 +1,37 @@
+.wrapper::before {
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    left: -0.6rem;
+    top: 0;
+    background: white;
+    border: 0.15rem solid black;
+    box-sizing: border-box;
+}
+.wrapper {
+    padding: 0 2.5rem 1rem;
+    border-left: .3rem solid black;
+    max-width: 40rem;
+    margin: auto;
+    position: relative;
+    transition: all linear 0.25s;
+}
+
+
+.title {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.date {
+    color: #999;
+    font-size: 0.8rem;
+}
+
+.list {
+    list-style-type: disc;
+    margin-left: 1.25rem;
+    font-size: 0.9rem;
+}

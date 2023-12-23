@@ -1,0 +1,5 @@
+.flexbox-container {
+  text-align: left;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
