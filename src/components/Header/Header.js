@@ -61,6 +61,11 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
+              <NavLink to="/experience" className={isActivePage}  onClick={closeSidebar}>
+                Experience
+              </NavLink>
+            </li>
+            <li>
               <NavLink to="/projects" className={isActivePage}  onClick={closeSidebar}>
                 Projects
               </NavLink>
