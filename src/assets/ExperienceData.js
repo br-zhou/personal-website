@@ -8,6 +8,7 @@ export const WORK_EXPERIENCE = [
         "Discussed and planned communication standards and protocols with other subteams for seemless integration",
         "Resarching and implementing alternative video streaming solution to reduce overhead and operation costs",
       ],
+      current: true,
     },
     {
       title: "Autoverse.tech",
@@ -36,6 +37,7 @@ export const WORK_EXPERIENCE = [
         "4.17/4.33 GPA",
         "Dean's Honour List",
       ],
+      current: true,
     },
     {
       title: "Concurrent Studies - Computer Science",

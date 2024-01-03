@@ -4,7 +4,7 @@ import ExpItem from "./ExpItem/ExpItem";
 import classes from "./Experience.module.css";
 
 const getCards = (data) => {
-  return data.map((project) => <ExpItem {...project} />);
+  return data.map((project) => <ExpItem key={project.title} {...project} />);
 };
 
 const Experience = () => {

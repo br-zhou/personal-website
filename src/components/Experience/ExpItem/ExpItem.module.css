@@ -7,16 +7,25 @@
     left: -0.6rem;
     top: 0;
     background: white;
-    border: 0.15rem solid black;
+    border: 0.15rem solid #111827;
     box-sizing: border-box;
 }
+
 .wrapper {
     padding: 0 2.5rem 1rem;
-    border-left: .3rem solid black;
+    border-left: .3rem solid #111827;
     max-width: 40rem;
     margin: auto;
     position: relative;
     transition: all linear 0.25s;
+}
+
+.current::before {
+    border: 0.15rem solid #58cf39;
+}
+
+.current {
+    border-left: .3rem solid #58cf39;
 }
 
 .title {
