@@ -29,18 +29,18 @@ export const FEATURED_PROJECTS = [
       "https://cdn.discordapp.com/attachments/1123397647785533561/1131338549967474790/image.png",
   },
   {
+    id: "react-path-finder",
+    title: "A* Path Finder",
+    desc: "Javascript, React, Redux, Tailwind.CSS",
+    thumb:
+      "https://cdn.discordapp.com/attachments/803481006446870598/1192261076428009573/thumb.jpg",
+  },
+  {
     id: "app-blocker",
     title: "Python App Blocker",
     desc: "Python, Command Line",
     thumb:
       "https://cdn.discordapp.com/attachments/1123397647785533561/1131340096621264906/image.png",
-  },
-  {
-    id: "fh-clubs",
-    title: "School Website",
-    desc: "JQuery, Bootstrap, Javascript",
-    thumb:
-      "https://cdn.discordapp.com/attachments/1123397647785533561/1131339690801381448/export.png",
   },
   {
     id: "chat-app",
@@ -91,6 +91,13 @@ export const OTHER_PROJECTS = [
     id: "fitness-app",
     title: "Fitness App",
     desc: "React.js, Oracle SQLPlus, Node.js, TailwindCSS",
+  },
+  {
+    id: "fh-clubs",
+    title: "School Clubs Website",
+    desc: "JQuery, Bootstrap, Javascript",
+    // thumb:
+    //   "https://cdn.discordapp.com/attachments/1123397647785533561/1131339690801381448/export.png",
   },
 ];
 
@@ -144,6 +151,20 @@ export const PROJECT_DETAILS = {
     btn: {
       link: "https://identitydeficiency.itch.io/the-candy-exterminator",
       text: "Play Online!",
+    },
+  },
+  "react-path-finder": {
+    title: "Grid-Based A* Path Finder",
+    desc: "Fully built a grid-based path finding demo using React.js, Redux, Tailwind.CSS, and a custom 2d Rendering engine.",
+    img: [
+      "https://cdn.discordapp.com/attachments/803481006446870598/1192263886494253106/img_1.jpg",
+      "https://cdn.discordapp.com/attachments/803481006446870598/1192265847939539014/img_3.jpg",
+      "https://cdn.discordapp.com/attachments/803481006446870598/1192266489173119037/img_4.jpg",
+    ],
+
+    btn: {
+      link: "https://br-zhou.github.io/path-finder-react/",
+      text: "Live Demo!",
     },
   },
   "app-blocker": {
