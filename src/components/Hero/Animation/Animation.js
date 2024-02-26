@@ -5,35 +5,35 @@ const HeroAnimation = () => {
     <div className={classes.doodles}>
       <div>
         <img
-          src="https://cdn.discordapp.com/attachments/803481006446870598/1133930696562454569/export-i.gif"
+          src="https://cdn.br-zhou.com/site-img/scribble.gif"
           alt="scribble"
           loading="lazy"
         />
       </div>
       <div>
         <img
-          src="https://cdn.discordapp.com/attachments/803481006446870598/1133930696562454569/export-i.gif"
+          src="https://cdn.br-zhou.com/site-img/scribble.gif"
           alt="scribble"
           loading="lazy"
         />
       </div>
       <div>
         <img
-          src="https://cdn.discordapp.com/attachments/803481006446870598/1133930696562454569/export-i.gif"
+          src="https://cdn.br-zhou.com/site-img/scribble.gif"
           alt="scribble"
           loading="lazy"
         />
       </div>
       <div>
         <img
-          src="https://cdn.discordapp.com/attachments/803481006446870598/1133930696562454569/export-i.gif"
+          src="https://cdn.br-zhou.com/site-img/scribble.gif"
           alt="scribble"
           loading="lazy"
         />
       </div>
       <div>
         <img
-          src="https://cdn.discordapp.com/attachments/803481006446870598/1133930696562454569/export-i.gif"
+          src="https://cdn.br-zhou.com/site-img/scribble.gif"
           alt="scribble"
           loading="lazy"
         />
