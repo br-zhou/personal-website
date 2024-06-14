@@ -3,8 +3,8 @@
   background-color: white;
   padding: 1rem;
   border: 3px solid black;
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
   text-align: left;
-  box-shadow: 15px 15px 35px rgba(30, 30, 30, 0.4);
+  box-shadow: 15px 15px 15px rgba(30, 30, 30, 0.4);
   transition: transform 0.175s linear;
 }
