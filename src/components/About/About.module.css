@@ -1,4 +1,9 @@
 .about > h2 {
   font-size: 2rem;
   margin: 0;
+  text-align: left;
+}
+
+.about > p {
+  text-align: left;
 }

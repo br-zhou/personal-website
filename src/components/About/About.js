@@ -7,11 +7,10 @@ const About = () => {
       <div className={`section-content ${classes.about}`}>
         <h2>About Me</h2>
         <p>
-          I am a passionate developer studying at the University of British
-          Columbia. My love for programming started when I wrote my first game
-          in grade 7. Ever since, I have been pushing myself to sharpen my
-          software engineering skills. As a curious individual, I am always
-          looking for new challenges and opportunities!
+          Hello! I'm a programming student at the University of British Columbia
+          with a passion for continuous learning. I have experience with low-level programming,
+          cloud technologies, and software engineering practices. I'm looking for unique
+          opportunities to learn and grow.
         </p>
         <a
           href="https://cdn.br-zhou.com/Brian_Zhou_Resume.pdf"
