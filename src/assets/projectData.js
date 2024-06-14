@@ -11,7 +11,6 @@ export const FEATURED_PROJECTS = [
     desc: "JavaScript, Socket.IO, React.js, Node.js",
     thumb:
       "https://cdn.br-zhou.com/site-img/dino-thumb.png",
-    badge: true,
   },
   {
     id: "csdc",
@@ -109,7 +108,7 @@ export const PROJECT_DETAILS = {
   },
   "dino-brawl": {
     title: "Dino Brawl",
-    desc: "Currently developing a online multiplayer game using Javascript, React.js, Socket.IO, and a custom game engine built from scratch.",
+    desc: "Developed a online multiplayer proof of concept that integrates React.js with a custom game engine built from scratch. Used Socket.IO for live multiplayer.",
     img: [
       "https://cdn.br-zhou.com/site-img/dino-1.jpg",
       "https://cdn.br-zhou.com/site-img/dino-2.jpg",
