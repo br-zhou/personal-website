@@ -30,17 +30,17 @@ export const WORK_EXPERIENCE = [
   
   export const EDUCATION = [
     {
-      title: "Bachelor of Science - Computer Science",
+      title: "Bachelor of Science - Computer Science Honours",
       desc: "University of British Columbia",
       timeline: "Sep. 2022 - Present",
       points: [
-        "4.17/4.33 GPA",
+        "4.03/4.33 GPA",
         "Dean's Honour List",
       ],
       current: true,
     },
     {
-      title: "Concurrent Studies - Computer Science",
+      title: "High School Concurrent Studies - Computer Science",
       desc: "Simon Fraser University",
       timeline: "Sep. 2021 - Apr. 2022",
       points: [
