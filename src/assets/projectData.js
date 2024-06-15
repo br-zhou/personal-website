@@ -128,7 +128,7 @@ export const PROJECT_DETAILS = {
       "https://cdn.br-zhou.com/site-img/csdc-3.jpg",
     ],
     btn: {
-      link: "http://www.fhscienceacademy.ca/[SA]Zephyr.html",
+      link: "https://fhscienceacademy.com/posts/team_zephyr_cansat_competition_2022/",
       text: "See Article!",
     },
   },
