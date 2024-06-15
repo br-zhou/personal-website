@@ -200,7 +200,7 @@ export const PROJECT_DETAILS = {
   },
   "flash-game": {
     title: "Space Fighter",
-    desc: "Space Fighter was one of the first games I fully developed, which I did when I was 12. Although I have created a half-dozen games in Flash, Space Fighters is the most memorable due to the effort I put into creating the graphics. Sadly, most of my other games have been lost to time.",
+    desc: "Space Fighter was one of the first games I developed from scratch, which I did when I was 12. Although I have created a half-dozen games in Flash, most of them have been lost to time.",
     img: [
       "https://cdn.br-zhou.com/site-img/space-fighter-1.jpg",
       "https://cdn.br-zhou.com/site-img/space-fighter-2.jpg",
