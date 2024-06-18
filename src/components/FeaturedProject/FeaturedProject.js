@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import ProjectDetails from "../ProjectDetails/ProjectDetails";
 
 const FeaturedProject = () => {
-  const PROJECT_ID = "dino-brawl";
+  const PROJECT_ID = "untitled-game";
 
   return (
     <section className={`bg-white`}>
