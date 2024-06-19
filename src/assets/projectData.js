@@ -278,7 +278,7 @@ export const PROJECT_DETAILS = {
     },
   },
   "untitled-game": {
-    title: "League Game",
+    title: "MOBA Game",
     desc: "Currently developing a multiplayer browser game inspired by League of Legends and Brawl Stars. Client is built using TypeScript, Three.js, and React.",
     img: [
       "https://cdn.br-zhou.com/site-img/untitled-game-1.jpg",
