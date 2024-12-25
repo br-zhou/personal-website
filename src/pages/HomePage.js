@@ -1,14 +1,14 @@
 import Hero from "../components/Hero/Hero";
 import About from "../components/About/About";
-import Skills from "../components/Skills/Skills";
 import FeaturedProject from "../components/FeaturedProject/FeaturedProject";
+import Experience from "../components/Experience/Experience";
 
 const HomePage = () => {
   return (
     <>
       <Hero />
       <About />
-      <Skills />
+      <Experience />
       <FeaturedProject />
     </>
   );
