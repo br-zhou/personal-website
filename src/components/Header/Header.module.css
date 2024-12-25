@@ -132,6 +132,7 @@ ul {
   .nav-links li a:hover,
   .burger-btn:hover,
   #burger-x-btn:hover {
-    background-color: black;
+    background-color: white;
+    color: black;
   }
 }
