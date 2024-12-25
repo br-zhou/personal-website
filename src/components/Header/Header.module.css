@@ -21,6 +21,11 @@
   transition: transform 0.075s linear;
 }
 
+.home-button > h2 {
+  margin: 0;
+  padding: 10px 30px;
+}
+
 .navbar-icon {
   margin: auto 10px;
 }
@@ -125,7 +130,7 @@ ul {
 
 @media (any-hover: hover) and (pointer: fine) {
   .home-button:hover {
-    transform: scale(1.05) rotate(-2deg);
+    transform: scale(1.05);
     cursor: pointer;
   }
 
