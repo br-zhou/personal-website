@@ -45,11 +45,14 @@ export const EDUCATION = [
 
 export const CERTIFICATIONS = [
   {
-    title: "AWS Database Specialty Certification",
-    timeline: "Jun 2023",
+    title: "AWS Certified Database - Specialty",
+    desc: "Credential ID: CKXYFN1K81B4QFST",
+    timeline: "Issued Jun. 2023",
+    img: "https://cdn.br-zhou.com/site-img/aws_database_logo.png",
   },
   {
     title: "Udemy: React - The Complete Guide",
-    timeline: "Aug. 2023",
+    timeline: "Issued Aug. 2023",
+    img: "https://cdn.br-zhou.com/site-img/udemy_logo.jpg",
   },
 ]
