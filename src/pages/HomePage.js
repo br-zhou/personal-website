@@ -1,7 +1,7 @@
 import Hero from "../components/Hero/Hero";
 import About from "../components/About/About";
 import FeaturedProject from "../components/FeaturedProject/FeaturedProject";
-import Experience from "../components/Experience/Experience";
+import Experience, { Certifications } from "../components/Experience/Experience";
 
 const HomePage = () => {
   return (
@@ -9,6 +9,7 @@ const HomePage = () => {
       <Hero />
       <About />
       <Experience />
+      <Certifications />
       <FeaturedProject />
     </>
   );
