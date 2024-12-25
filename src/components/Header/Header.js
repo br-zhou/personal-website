@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logo from "../../assets/logox64.png";
 import BurgerSvg from "./BurgerSvg";
 import classes from "./Header.module.css";
 import XSvg from "./XSvg";
@@ -30,13 +29,6 @@ const Header = () => {
       <header className={classes.header}>
         <Link to="/">
           <div className={classes["home-button"]}>
-            <img
-              src={logo}
-              alt="website logo"
-              className={classes["navbar-icon"]}
-              draggable={false}
-              width={24}
-            />
             <h2 className={classes["navbar-title"]}>Brian Zhou</h2>
           </div>
         </Link>
