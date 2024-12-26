@@ -16,16 +16,21 @@
   pointer-events: none;
 }
 
-.main-content > img {
-  display: block;
-  margin: auto;
+.picture {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
 }
 
-.picture {
+.picture-container {
   border-radius: 50%;
-  border: solid 0.5rem white;
+  background-color: white;
   width: 275px;
   height: 275px;
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  padding: 0.5rem;
 }
 
 .title {

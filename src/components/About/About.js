@@ -1,4 +1,3 @@
-import Button from "../UI/Button/Button";
 import classes from "./About.module.css";
 
 const About = () => {

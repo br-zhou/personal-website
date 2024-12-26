@@ -9,12 +9,15 @@ const Hero = () => {
       </div>
 
       <div className={classes["main-content"]}>
-        <img
-          src="https://cdn.br-zhou.com/profile_picture.jpg"
-          alt="profile"
-          className={classes.picture}
-          draggable="false"
-        />
+        <div className={classes["picture-container"]}>
+          <img
+            src="https://cdn.br-zhou.com/profile_picture.jpg"
+            alt="profile"
+            className={classes.picture}
+            draggable="false"
+            loading="lazy"
+          />
+        </div>
         <div className={classes["text-container"]}>
           <h1 className={classes.title}>Brian Zhou</h1>
           <p className={classes.description}>
