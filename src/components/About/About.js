@@ -7,18 +7,18 @@ const About = () => {
       <div className={`section-content ${classes.about}`}>
         <h2>About Me</h2>
         <p>
-          Hello! I'm a programming student at the University of British Columbia
-          with a passion for continuous learning. I have experience with low-level programming,
-          cloud technologies, and software engineering practices. I'm looking for unique
-          opportunities to learn and grow.
+          Hello 👋! I'm a 3rd year computer science honors student at the University of British Columbia.
+          I have experience developing web applications, writing firmware, and building games.
+          I love learning new technologies to solve challenging problems. 
+          I am always looking for opportunities to learn and grow, and am working towards a career in cyber security.
         </p>
-        <a
+        {/* <a
           href="https://cdn.br-zhou.com/Brian_Zhou_Resume.pdf"
           target="_blank"
           rel="noreferrer"
         >
           <Button text="View Resume" />
-        </a>
+        </a> */}
       </div>
     </section>
   );
