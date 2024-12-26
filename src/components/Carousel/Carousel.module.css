@@ -18,10 +18,13 @@
   opacity: 1;
   text-align: center;
   color: rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slide > h1 {
-  vertical-align: middle;
+  user-select: none;
 }
 
 .slide > img {
