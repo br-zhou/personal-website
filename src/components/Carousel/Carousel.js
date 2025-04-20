@@ -45,7 +45,15 @@ const Carousel = (props) => {
       <ul>
         <li className={classes.slide}>
           {props.img ? (
-            <img src={IMG_LIST[activeSlide]} alt="" loading="lazy"/>
+            IMG_LIST.map((src, index) => (
+              <img
+                key={index}
+                src={src}
+                alt=""
+                loading="lazy"
+                style={{ display: index === activeSlide ? 'block' : 'none' }}
+              />
+            ))
           ) : (
             <h1>No Image Available</h1>
           )}
