@@ -6,17 +6,16 @@ export const FEATURED_PROJECTS = [
     thumb: "https://cdn.br-zhou.com/site-img/rose-thumb.jpg",
   },
   {
-    id: "ubc-avionics",
-    title: "UBC Rocket Avionics",
-    desc: "C++, FreeRTOS, MCUXpresso",
-    thumb: "https://cdn.br-zhou.com/site-img/rocket-thumb.jpg",
+    id: "ubc-aero",
+    title: "UBC AeroDesign",
+    desc: "C, FreeRTOS, STM32",
+    thumb: "https://cdn.br-zhou.com/site-img/aero-thumb.jpg",
   },
   {
-    id: "dino-brawl",
-    title: "Dino Brawl",
-    desc: "JavaScript, Socket.IO, React.js, Node.js",
-    thumb:
-      "https://cdn.br-zhou.com/site-img/dino-thumb.png",
+    id: "candy-exterminator",
+    title: "Candy Exterminator",
+    desc: "C#, Unity",
+    thumb: "https://cdn.br-zhou.com/site-img/candy-thumb.png",
   },
   {
     id: "csdc",
@@ -26,10 +25,17 @@ export const FEATURED_PROJECTS = [
     "https://cdn.br-zhou.com/site-img/csdc-thumb.jpg",
   },
   {
-    id: "candy-exterminator",
-    title: "Candy Exterminator",
-    desc: "C#, Unity",
-    thumb: "https://cdn.br-zhou.com/site-img/candy-thumb.png",
+    id: "dino-brawl",
+    title: "Dino Brawl",
+    desc: "JavaScript, Socket.IO, React.js, Node.js",
+    thumb:
+      "https://cdn.br-zhou.com/site-img/dino-thumb.png",
+  },
+  {
+    id: "ubc-rocket",
+    title: "UBC Rocket Avionics",
+    desc: "C++, FreeRTOS, MCUXpresso",
+    thumb: "https://cdn.br-zhou.com/site-img/rocket-thumb.jpg",
   },
   {
     id: "react-path-finder",
@@ -113,13 +119,25 @@ export const PROJECT_DETAILS = {
       "https://cdn.br-zhou.com/site-img/rose-4.jpg",
     ],
   },
-  "ubc-avionics": {
+  "ubc-rocket": {
     title: "UBC Rocket Avionics",
     desc: "Collaborated with a team to develop and test aerospace-grade electronics. Successfully debugged mission-critical code, ensuring the reliability of electronic systems. Designed solutions for radio communications technology tailored for space missions. Actively contributed in bi-weekly team meetings, providing progress updates, sharing insights, and strategizing to achieve project milestones.",
     img: [
       "https://cdn.br-zhou.com/site-img/rocket-1.jpg",
       "https://cdn.br-zhou.com/site-img/rocket-2.jpg",
       "https://cdn.br-zhou.com/site-img/rocket-3.jpg",
+    ],
+  },
+  "ubc-aero": {
+    title: "UBC AeroDesign Avionics",
+    desc: "Developed GPS and voltage sensing firmware for flight controller using C and FreeRTOS. Integrated sensor tasks with rest of flight controller logic using FreeRTOS. Revised flight controller to fix schematic errors. Wrote Python scripts to communicate with flight controller with Mavlink protocol.",
+    img: [
+      "https://cdn.br-zhou.com/site-img/aero-1.jpg",
+      "https://cdn.br-zhou.com/site-img/aero-3.jpg",
+      "https://cdn.br-zhou.com/site-img/aero-4.jpg",
+      "https://cdn.br-zhou.com/site-img/aero-5.jpg",
+      "https://cdn.br-zhou.com/site-img/aero-2.jpg",
+
     ],
   },
   "dino-brawl": {
