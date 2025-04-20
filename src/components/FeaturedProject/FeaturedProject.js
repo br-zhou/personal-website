@@ -9,7 +9,7 @@ const FeaturedProject = () => {
   return (
     <section className={`bg-white`}>
       <div className={`section-content`}>
-        <TitleSection title="Project" bgText="Featured" />
+        <TitleSection title="Featured Project" />
         <ProjectDetails id={PROJECT_ID} />
 
         <Link to="/projects">

@@ -17,7 +17,7 @@ const ProjectGallery = () => {
   return (
     <>
       <section className={`bg-grey`}>
-        <TitleSection title="Projects" bgText="Notable" />
+        <TitleSection title="Projects" />
         <div className={`section-content`}>
           <div className={classes["flexbox-container"]}>
             {getCards(FEATURED_PROJECTS)}
@@ -26,7 +26,7 @@ const ProjectGallery = () => {
       </section>
 
       <section className={`bg-white`}>
-        <TitleSection title="Projects" bgText="Other" />
+        <TitleSection title="More Projects" />
         <div className={`section-content`}>
           <div className={classes["flexbox-container"]}>
             {getCards(OTHER_PROJECTS)}
