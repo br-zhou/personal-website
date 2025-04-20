@@ -1,5 +1,11 @@
 export const FEATURED_PROJECTS = [
   {
+    id: "rose-garden",
+    title: "Rose Garden XR",
+    desc: "Unity, VR, Firebase, C#",
+    thumb: "https://cdn.br-zhou.com/site-img/rose-thumb.jpg",
+  },
+  {
     id: "ubc-avionics",
     title: "UBC Rocket Avionics",
     desc: "C++, FreeRTOS, MCUXpresso",
@@ -43,7 +49,7 @@ export const FEATURED_PROJECTS = [
     title: "Discord Clone",
     desc: "React.js, Node.js, Socket.io, MySQL, AWS",
     thumb: "https://cdn.br-zhou.com/site-img/disc-thumb.jpg",
-  },
+  }
 ];
 
 export const OTHER_PROJECTS = [
@@ -97,6 +103,15 @@ export const OTHER_PROJECTS = [
 ];
 
 export const PROJECT_DETAILS = {
+  "rose-garden": {
+    title: "UBC Rose Garden XR",
+    desc: "Worked in a group of 9 to develop an augmented reality experience that allows users to interact with the UBC rose garden during off-season. The experince is acompanied by a web app that allows users to send custom messages to visitors in the virtual garden. Person in thumbnail is Jason Kitikul.",
+    img: [
+      "https://cdn.br-zhou.com/site-img/rose-1.jpg",
+      "https://cdn.br-zhou.com/site-img/rose-2.jpg",
+      "https://cdn.br-zhou.com/site-img/rose-3.jpg",
+    ],
+  },
   "ubc-avionics": {
     title: "UBC Rocket Avionics",
     desc: "Collaborated with a team to develop and test aerospace-grade electronics. Successfully debugged mission-critical code, ensuring the reliability of electronic systems. Designed solutions for radio communications technology tailored for space missions. Actively contributed in bi-weekly team meetings, providing progress updates, sharing insights, and strategizing to achieve project milestones.",
