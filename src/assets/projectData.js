@@ -130,7 +130,7 @@ export const PROJECT_DETAILS = {
   },
   "ubc-aero": {
     title: "UBC AeroDesign Avionics",
-    desc: "Developed GPS and voltage sensing firmware for flight controller using C and FreeRTOS. Integrated sensor tasks with rest of flight controller logic using FreeRTOS. Revised flight controller to fix schematic errors. Wrote Python scripts to communicate with flight controller with Mavlink protocol.",
+    desc: "Developed GPS and voltage sensing firmware for flight controller using C and FreeRTOS. Integrated sensor tasks with rest of flight controller logic using FreeRTOS. Revised flight controller PCB to fix schematic errors. Wrote Python scripts to communicate with flight controller using the Mavlink protocol.",
     img: [
       "https://cdn.br-zhou.com/site-img/aero-1.jpg",
       "https://cdn.br-zhou.com/site-img/aero-3.jpg",
