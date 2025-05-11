@@ -1,4 +1,11 @@
 export const WORK_EXPERIENCE = [
+    {
+    title: "Kardium Inc.",
+    img: "https://cdn.br-zhou.com/site-img/kardium_logo.jfif",
+    desc: "Software / Firmware Intern",
+    timeline: "May. 2025 - Aug. 2025",
+    location: "Burnaby, BC",
+  },
   {
     title: "Intel Corporation",
     img: "https://cdn.br-zhou.com/site-img/intel_corporation_logo.jpg",
