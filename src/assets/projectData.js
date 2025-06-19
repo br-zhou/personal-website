@@ -113,9 +113,11 @@ export const PROJECT_DETAILS = {
     title: "UBC Rose Garden XR",
     desc: "Worked in a group of 9 to develop an augmented reality experience that allows users to interact with the UBC rose garden during off-season. The experince is acompanied by a web app that allows users to send custom messages to visitors in the virtual garden. Person in thumbnail is Jason Kitikul.",
     img: [
+      "https://cdn.br-zhou.com/site-img/rose-6.jpg",
       "https://cdn.br-zhou.com/site-img/rose-2.jpg",
       "https://cdn.br-zhou.com/site-img/rose-1.jpg",
       "https://cdn.br-zhou.com/site-img/rose-3.jpg",
+      "https://cdn.br-zhou.com/site-img/rose-5.jpg",
       "https://cdn.br-zhou.com/site-img/rose-4.jpg",
     ],
   },
