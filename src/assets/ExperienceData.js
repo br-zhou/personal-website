@@ -54,6 +54,12 @@ export const EDUCATION = [
 
 export const CERTIFICATIONS = [
   {
+    title: "CompTIA Security+",
+    desc: "Credential ID: 6M116FQ5XJ1EKF2J",
+    timeline: "Issued Jul. 2025",
+    img: "https://cdn.br-zhou.com/site-img/comptia_securityplus_logo.png",
+  },
+  {
     title: "AWS Certified Database - Specialty",
     desc: "Credential ID: CKXYFN1K81B4QFST",
     timeline: "Issued Jun. 2023",
