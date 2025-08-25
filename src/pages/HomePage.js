@@ -1,6 +1,5 @@
 import Hero from "../components/Hero/Hero";
 import About from "../components/About/About";
-import FeaturedProject from "../components/FeaturedProject/FeaturedProject";
 import Experience, { Certifications } from "../components/Experience/Experience";
 
 const HomePage = () => {
@@ -10,7 +9,6 @@ const HomePage = () => {
       <About />
       <Experience />
       <Certifications />
-      <FeaturedProject />
     </>
   );
 };
