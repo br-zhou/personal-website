@@ -1,9 +1,16 @@
 export const WORK_EXPERIENCE = [
-    {
+  {
+    title: "Arista Networks",
+    img: "https://cdn.br-zhou.com/site-img/arista_logo.jfif",
+    desc: "Software Engineer Intern",
+    timeline: "Sep. 2025 - Dec. 2025",
+    location: "Burnaby, BC",
+  },
+  {
     title: "Kardium Inc.",
     img: "https://cdn.br-zhou.com/site-img/kardium_logo.jfif",
     desc: "Software / Firmware Intern",
-    timeline: "May. 2025 - Aug. 2025",
+    timeline: "May 2025 - Aug. 2025",
     location: "Burnaby, BC",
   },
   {
@@ -27,28 +34,23 @@ export const WORK_EXPERIENCE = [
     timeline: "Oct. 2022 - Apr. 2023",
     location: "Vancouver, BC",
   },
-]
+];
 
 export const EDUCATION = [
   {
     title: "Bachelor of Science - Computer Science Honours",
     desc: "University of British Columbia",
     timeline: "Sep. 2022 - Present",
-    points: [
-      "4.03/4.33 GPA",
-      "Dean's Honour List",
-    ],
+    points: ["4.03/4.33 GPA", "Dean's Honour List"],
     current: true,
   },
   {
     title: "High School Concurrent Studies - Computer Science",
     desc: "Simon Fraser University",
     timeline: "Sep. 2021 - Apr. 2022",
-    points: [
-      "CMPT 130 & CMPT 135",
-    ],
+    points: ["CMPT 130 & CMPT 135"],
   },
-]
+];
 
 export const CERTIFICATIONS = [
   {
@@ -62,4 +64,4 @@ export const CERTIFICATIONS = [
     timeline: "Issued Aug. 2023",
     img: "https://cdn.br-zhou.com/site-img/udemy_logo.jpg",
   },
-]
+];
