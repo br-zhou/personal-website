@@ -11,7 +11,7 @@ const Hero = () => {
       <div className={classes["main-content"]}>
         <div className={classes["picture-container"]}>
           <img
-            src="https://cdn.br-zhou.com/profile_picture.jpg"
+            src="https://cdn.br-zhou.com/site-img/profile_picture_2.jpg"
             alt="profile"
             className={classes.picture}
             draggable="false"

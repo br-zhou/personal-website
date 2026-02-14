@@ -23,7 +23,7 @@ const Footer = () => {
           </a>
         </div>
         <p>Made with ❤️ by Brian</p>
-        <p>©️ 2023 Brian Zhou</p>
+        <p>©️ 2023 - 2026 Brian Zhou</p>
       </div>
     </footer>
   );
