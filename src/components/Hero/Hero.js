@@ -21,7 +21,7 @@ const Hero = () => {
         <div className={classes["text-container"]}>
           <h1 className={classes.title}>Brian Zhou</h1>
           <p className={classes.description}>
-            Driven. Curious. Problem Solver.
+            Food, Badminton, Learning!
           </p>
         </div>
       </div>
