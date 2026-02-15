@@ -11,6 +11,17 @@
   text-align: center;
 }
 
+.main-text::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 6px;
+    background: rgba(30, 30, 30, 0.1);
+}
+
 .bg-text {
   color: lightgray;
   font-size: 7rem;
