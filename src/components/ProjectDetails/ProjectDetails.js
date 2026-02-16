@@ -23,7 +23,7 @@ const ProjectDetails = (props) => {
         <div className={classes["info-container"]}>
           <Card className={classes["info-card"]}>
             <div className={classes.desc}>
-              <h1>Description</h1>
+              <h2 className={classes["desc-text"]}>Description</h2>
               <p>{projectData.desc}</p>
             </div>
 

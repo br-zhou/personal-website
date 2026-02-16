@@ -96,15 +96,20 @@ export const OTHER_PROJECTS = [
   },
   {
     id: "fitness-app",
-    title: "Fitness App",
+    title: "Database Project",
     desc: "React.js, Oracle SQLPlus, Node.js, TailwindCSS",
   },
   {
     id: "fh-clubs",
-    title: "School Clubs Website",
+    title: "High School Clubs Website",
     desc: "JQuery, Bootstrap, Javascript",
     // thumb:
     // "https://cdn.br-zhou.com/site-img/fh-clubs-thumb.png",
+  },
+  {
+    id: "stretch-app",
+    title: "Stretch App",
+    desc: "React.js, Electron, Google OAuth, Hackathon",
   },
 ];
 
@@ -219,9 +224,9 @@ export const PROJECT_DETAILS = {
       "https://cdn.br-zhou.com/site-img/fh-clubs-3.png",
       "https://cdn.br-zhou.com/site-img/fh-clubs-4.png",
     ],
-    btn: {
-      link: "https://www.fhclubs.ca",
-    },
+    // btn: {
+    //   link: "https://www.fhclubs.ca",
+    // },
   },
   "personal-site": {
     title: "Personal Website",
@@ -299,7 +304,7 @@ export const PROJECT_DETAILS = {
     },
   },
   "fitness-app": {
-    title: "Fitness App",
+    title: "Fitness Database App",
     desc: "Actively led and collaborated in a team of three to create an online fitness app. Successfully planned project timeline, discussed and carried out implementation, and conducted weekly group meetings to update progress and trouble integration issues.",
     img: [
       "https://cdn.br-zhou.com/site-img/fitness-app-1.jpg",
@@ -312,6 +317,16 @@ export const PROJECT_DETAILS = {
       link: "https://github.com/br-zhou/exercise-db-app",
       text: "View Source Code!",
     },
+  },
+  "stretch-app": {
+    title: "Stretch Reminder App",
+    desc: "Created a desktop application using React.js and Electron that reminds users to stretch at regular intervals. Implemented Google OAuth to disable notifications during company meetings. Built in 24 hours for company hackathon. Used Google Gemini for UI design.",
+    img: [
+      "https://cdn.br-zhou.com/site-img/stretch-1.jpg",
+      "https://cdn.br-zhou.com/site-img/stretch-2.jpg",
+      "https://cdn.br-zhou.com/site-img/stretch-3.jpg",
+      "https://cdn.br-zhou.com/site-img/stretch-4.jpg",
+    ],
   },
   "untitled-game": {
     title: "MOBA Game",

@@ -33,6 +33,10 @@
   padding: 0;
 }
 
+.desc-text {
+  color: rgb(203, 209, 210);
+}
+
 .btn-container {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
