@@ -36,17 +36,20 @@
 .title {
   font-size: 3rem;
   margin: 1rem auto;
-  background-color: var(--color-hero-bg-trans);
   display: table;
   padding: 0 1rem;
 }
 
 .description {
   font-size: 1.5rem;
-  background-color: var(--color-hero-bg-trans);
   margin: auto;
   display: table;
   padding: 0 1rem;
+}
+
+.text-container > * {
+  background-color: var(--color-hero-bg);
+  box-shadow: 0 0 40px var(--color-hero-bg);
 }
 
 /* Hero Background Animation */
@@ -55,13 +58,4 @@
   width: 100%;
   height: 100%;
   position: absolute;
-}
-
-@media screen and (max-width: 768px) {
-  .text-container {
-    background-color: var(--color-hero-bg-trans);
-  }
-  .title, .description {
-    background-color: transparent;
-  }
 }
