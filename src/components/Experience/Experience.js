@@ -10,7 +10,8 @@ const Experience = () => {
   return (
     <section className="bg-grey">
       <div className="section-content">
-        <h2 className="section-title">Work Experience</h2>
+        <h2 className="section-title">Experience</h2>
+        <hr></hr>
         <div className={classes["flexbox-container"]}>
           {getCards(WORK_EXPERIENCE)}
         </div>
@@ -24,6 +25,7 @@ export const Certifications = () => {
     <section className="bg-grey" style={{ paddingTop: "0" }}>
       <div className="section-content">
         <h2 className="section-title">Certifications</h2>
+        <hr></hr>
         <div className={classes["flexbox-container"]}>
           {getCards(CERTIFICATIONS)}
         </div>
