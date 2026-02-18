@@ -221,8 +221,8 @@ export const PROJECT_DETAILS = {
     },
   },
   "fh-clubs": {
-    title: "School Website",
-    desc: "Participating in clubs played a significant role in shaping my high school experience. Exploring various clubs helped me to create valuable friendships and discover new passions. Hence, I created this website to provide new students with a platform to easily find and pursue their interests through club activities.",
+    title: "High School Clubs Website",
+    desc: "Built for my grade 12 capstone. Participating in clubs played a significant role in shaping my high school experience. I created this website to provide new students with a platform to easily find and pursue their interests through club activities. Project was deployed and maintained for a few years by other Fraser Heights students.",
     img: [
       "https://cdn.br-zhou.com/site-img/fh-clubs-1.png",
       "https://cdn.br-zhou.com/site-img/fh-clubs-2.png",
@@ -235,7 +235,7 @@ export const PROJECT_DETAILS = {
   },
   "personal-site": {
     title: "Personal Website",
-    desc: "Designed and developed a responsive UI design using React.js with high global CSS coverage, maximizing the number of users who can intuitively access content. Successfully deployed the website using Google Firebase, ensuring high availability and scalability. Utilized a Content Delivery Network (CDN) to decrease loading times, enhancing user engagement.",
+    desc: "This very website. Yes, I added this entry to pad the project list. The image shows an early version of this website, which is viewable through the project's Git history.",
     img: [
       "https://cdn.br-zhou.com/site-img/website-1.png",
     ],
@@ -246,7 +246,7 @@ export const PROJECT_DETAILS = {
   },
   "flash-game": {
     title: "Space Fighter",
-    desc: "Space Fighter was one of the first games I developed from scratch, which I did when I was 12. Although I have created a half-dozen games in Flash, most of them have been lost to time.",
+    desc: "I developed from scratch using Adobe Flash when I was 12. I've lost most of the other games that I made during this period.",
     img: [
       "https://cdn.br-zhou.com/site-img/space-fighter-1.jpg",
       "https://cdn.br-zhou.com/site-img/space-fighter-2.jpg",
@@ -255,7 +255,7 @@ export const PROJECT_DETAILS = {
   },
   "java-quiz-app": {
     title: "Java Quiz App",
-    desc: "This app helps students quiz themselves in preparation for tests. Users can create, edit, and take quizzes.",
+    desc: "Built for CPSC 210 using Java and the Swing GUI library. This app helps students quiz themselves in preparation for tests. Users can create, edit, and take quizzes.",
     img: [
       "https://cdn.br-zhou.com/site-img/quiz-app-1.png",
       "https://cdn.br-zhou.com/site-img/quiz-app-2.png",
@@ -277,11 +277,11 @@ export const PROJECT_DETAILS = {
   },
   "physics-engine": {
     title: "Custom Physics & Game Engine",
-    desc: "Designed and implemented a custom game engine library that handles collision detection, collision response, and rendering logic. The library's API is inspired by the UnityEnigine API, making it intuitive for game developers.",
+    desc: "Designed and implemented a custom game engine library that handles collision detection, collision response, and rendering logic. The library's API is inspired by the UnityEnigine API, making it intuitive for game developers. Built for a web game I never deployed.",
   },
   "site-tracker": {
     title: "Site Usage Tracker",
-    desc: "I created this project using Google's new extension API, Manifest V3. This extension logs and displays browser usage. The data is automatically synced with other devices from the same Google account. This extension allows users to discover their bad habits.",
+    desc: "Tracks and displays browser usage. Syncs data across Google accounts. Created using Google's Manifest V3 API.",
     img: [
       "https://cdn.br-zhou.com/site-img/site-tracker-1.png",
     ],
@@ -310,7 +310,7 @@ export const PROJECT_DETAILS = {
   },
   "fitness-app": {
     title: "Fitness Database App",
-    desc: "Actively led and collaborated in a team of three to create an online fitness app. Successfully planned project timeline, discussed and carried out implementation, and conducted weekly group meetings to update progress and trouble integration issues.",
+    desc: "Built for CPSC 304. Led a team of three to create this online fitness app. Planned project timeline, discussed and carried out implementation, and conducted weekly group meetings to ensure project's success.",
     img: [
       "https://cdn.br-zhou.com/site-img/fitness-app-1.jpg",
       "https://cdn.br-zhou.com/site-img/fitness-app-2.jpg",
