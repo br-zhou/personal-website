@@ -5,35 +5,35 @@ const HeroAnimation = () => {
     <div className={classes.doodles}>
       <div>
         <img
-          src="https://cdn.br-zhou.com/site-img/scribble.gif"
+          src="https://cdn.br-zhou.com/site-img/salmon-15.gif"
           alt="scribble"
           loading="lazy"
         />
       </div>
       <div>
         <img
-          src="https://cdn.br-zhou.com/site-img/scribble.gif"
+          src="https://cdn.br-zhou.com/site-img/salmon-10.gif"
           alt="scribble"
           loading="lazy"
         />
       </div>
       <div>
         <img
-          src="https://cdn.br-zhou.com/site-img/scribble.gif"
+          src="https://cdn.br-zhou.com/site-img/salmon-15.gif"
           alt="scribble"
           loading="lazy"
         />
       </div>
       <div>
         <img
-          src="https://cdn.br-zhou.com/site-img/scribble.gif"
+          src="https://cdn.br-zhou.com/site-img/salmon-20.gif"
           alt="scribble"
           loading="lazy"
         />
       </div>
       <div>
         <img
-          src="https://cdn.br-zhou.com/site-img/scribble.gif"
+          src="https://cdn.br-zhou.com/site-img/salmon-15.gif"
           alt="scribble"
           loading="lazy"
         />

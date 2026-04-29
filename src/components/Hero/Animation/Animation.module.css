@@ -13,7 +13,7 @@
 }
 
 .doodles > div > img {
-  width: 150%;
+  width: clamp(120px, 12vw, 256px);
 }
 
 
